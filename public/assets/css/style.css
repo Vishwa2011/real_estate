@@ -10051,7 +10051,7 @@ ul.comment-list .th-comment-item:first-child > .th-post-comment {
 
 .hero-1 {
   background: var(--theme-color);
-  padding-top: 120px;
+  padding-top: 80px;
   margin-top: -1px;
   position: relative;
   /* Medium devices */
@@ -22864,5 +22864,6 @@ span.select2-selection.select2-selection--single:focus {
     padding-bottom: 70px;
   }
 }
+
 
 /*# sourceMappingURL=style.css.map */

@@ -181,39 +181,39 @@
     });
 
     /*---------- 05. Scroll To Top ----------*/
-    if ($('.scroll-top').length > 0) {
+    // if ($('.scroll-top').length > 0) {
         
-        var scrollTopbtn = document.querySelector('.scroll-top');
-        var progressPath = document.querySelector('.scroll-top path');
-        var pathLength = progressPath.getTotalLength();
-        progressPath.style.transition = progressPath.style.WebkitTransition = 'none';
-        progressPath.style.strokeDasharray = pathLength + ' ' + pathLength;
-        progressPath.style.strokeDashoffset = pathLength;
-        progressPath.getBoundingClientRect();
-        progressPath.style.transition = progressPath.style.WebkitTransition = 'stroke-dashoffset 10ms linear';		
-        var updateProgress = function () {
-            var scroll = $(window).scrollTop();
-            var height = $(document).height() - $(window).height();
-            var progress = pathLength - (scroll * pathLength / height);
-            progressPath.style.strokeDashoffset = progress;
-        }
-        updateProgress();
-        $(window).scroll(updateProgress);	
-        var offset = 50;
-        var duration = 750;
-        jQuery(window).on('scroll', function() {
-            if (jQuery(this).scrollTop() > offset) {
-                jQuery(scrollTopbtn).addClass('show');
-            } else {
-                jQuery(scrollTopbtn).removeClass('show');
-            }
-        });				
-        jQuery(scrollTopbtn).on('click', function(event) {
-            event.preventDefault();
-            jQuery('html, body').animate({scrollTop: 0}, duration);
-            return false;
-        })
-    }
+    //     var scrollTopbtn = document.querySelector('.scroll-top');
+    //     var progressPath = document.querySelector('.scroll-top path');
+    //     var pathLength = progressPath.getTotalLength();
+    //     progressPath.style.transition = progressPath.style.WebkitTransition = 'none';
+    //     progressPath.style.strokeDasharray = pathLength + ' ' + pathLength;
+    //     progressPath.style.strokeDashoffset = pathLength;
+    //     progressPath.getBoundingClientRect();
+    //     progressPath.style.transition = progressPath.style.WebkitTransition = 'stroke-dashoffset 10ms linear';		
+    //     var updateProgress = function () {
+    //         var scroll = $(window).scrollTop();
+    //         var height = $(document).height() - $(window).height();
+    //         var progress = pathLength - (scroll * pathLength / height);
+    //         progressPath.style.strokeDashoffset = progress;
+    //     }
+    //     updateProgress();
+    //     $(window).scroll(updateProgress);	
+    //     var offset = 50;
+    //     var duration = 750;
+    //     jQuery(window).on('scroll', function() {
+    //         if (jQuery(this).scrollTop() > offset) {
+    //             jQuery(scrollTopbtn).addClass('show');
+    //         } else {
+    //             jQuery(scrollTopbtn).removeClass('show');
+    //         }
+    //     });				
+    //     jQuery(scrollTopbtn).on('click', function(event) {
+    //         event.preventDefault();
+    //         jQuery('html, body').animate({scrollTop: 0}, duration);
+    //         return false;
+    //     })
+    // }
 
     /*---------- 06. Set Background Image Color & Mask ----------*/
     if ($("[data-bg-src]").length > 0) {
@@ -985,42 +985,42 @@
     $(".circle-title-anime").lettering();
 
     // /*----------- Gsap Animation ----------*/
-    if ($('.cursor-follower').length > 0) {
-        var follower = $(".cursor-follower");
+    // if ($('.cursor-follower').length > 0) {
+    //     var follower = $(".cursor-follower");
 
-        var posX = 0,
-            posY = 0;
+    //     var posX = 0,
+    //         posY = 0;
     
-        var mouseX = 0,
-            mouseY = 0;
+    //     var mouseX = 0,
+    //         mouseY = 0;
     
-        TweenMax.to({}, 0.016, {
-        repeat: -1,
-        onRepeat: function() {
-            posX += (mouseX - posX) / 9;
-            posY += (mouseY - posY) / 9;
+    //     TweenMax.to({}, 0.016, {
+    //     repeat: -1,
+    //     onRepeat: function() {
+    //         posX += (mouseX - posX) / 9;
+    //         posY += (mouseY - posY) / 9;
     
-            TweenMax.set(follower, {
-                css: {
-                left: posX - 12,
-                top: posY - 12
-                }
-            });
-        }
-        });
+    //         TweenMax.set(follower, {
+    //             css: {
+    //             left: posX - 12,
+    //             top: posY - 12
+    //             }
+    //         });
+    //     }
+    //     });
     
-        $(document).on("mousemove", function(e) {
-            mouseX = e.clientX;
-            mouseY = e.clientY;
-        });
-        //circle
-        $(".slider-area").on("mouseenter", function() {
-            follower.addClass("d-none");
-        });
-        $(".slider-area").on("mouseleave", function() {
-            follower.removeClass("d-none");
-        });  
-    }
+    //     $(document).on("mousemove", function(e) {
+    //         mouseX = e.clientX;
+    //         mouseY = e.clientY;
+    //     });
+    //     //circle
+    //     $(".slider-area").on("mouseenter", function() {
+    //         follower.addClass("d-none");
+    //     });
+    //     $(".slider-area").on("mouseleave", function() {
+    //         follower.removeClass("d-none");
+    //     });  
+    // }
 
     
     const cursor = document.querySelector(".slider-drag-cursor");
