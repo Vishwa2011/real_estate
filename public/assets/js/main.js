@@ -47,119 +47,108 @@
     }
 
     /*---------- 03. Mobile Menu ----------*/
-    $.fn.thmobilemenu = function (options) {
-        var opt = $.extend(
-            {
-                menuToggleBtn: ".th-menu-toggle",
-                bodyToggleClass: "th-body-visible",
-                subMenuClass: "th-submenu",
-                subMenuParent: "menu-item-has-children",
-                thSubMenuParent: "th-item-has-children",
-                subMenuParentToggle: "th-active",
-                meanExpandClass: "th-mean-expand",
-                appendElement: '<span class="th-mean-expand"></span>',
-                subMenuToggleClass: "th-open",
-                toggleSpeed: 400,
-            },
-            options
-        );
+    $(document).ready(function () {
+        $.fn.thmobilemenu = function (options) {
+            var opt = $.extend(
+                {
+                    menuToggleBtn: ".th-menu-toggle",
+                    bodyToggleClass: "th-body-visible",
+                    subMenuClass: "sub-menu",
+                    subMenuParent: "menu-item-has-children",
+                    subMenuParentToggle: "th-active",
+                    meanExpandClass: "th-mean-expand",
+                    appendElement: '<span class="th-mean-expand"></span>',
+                    subMenuToggleClass: "th-open",
+                    toggleSpeed: 400,
+                },
+                options
+            );
     
-        return this.each(function () {
-            var menu = $(this); // Select menu
+            return this.each(function () {
+                var menu = $(this); // Select menu wrapper
     
-            // Menu Show & Hide
-            function menuToggle() {
-                menu.toggleClass(opt.bodyToggleClass);
-    
-                // collapse submenu on menu hide or show
-                var subMenu = "." + opt.subMenuClass;
-                $(subMenu).each(function () {
-                    if ($(this).hasClass(opt.subMenuToggleClass)) {
-                        $(this).removeClass(opt.subMenuToggleClass);
-                        $(this).css("display", "none");
-                        $(this).parent().removeClass(opt.subMenuParentToggle);
+                // Menu Show & Hide
+                function menuToggle() {
+                    menu.toggleClass(opt.bodyToggleClass);
+                    
+                    // Hide all submenus when closing
+                    if (!menu.hasClass(opt.bodyToggleClass)) {
+                        $("." + opt.subMenuClass).slideUp(opt.toggleSpeed).removeClass(opt.subMenuToggleClass);
+                        $("." + opt.subMenuParent).removeClass(opt.subMenuParentToggle);
                     }
-                });
-            }
-    
-            // Class Set Up for every submenu
-            menu.find("." + opt.subMenuParent).each(function () {
-                var submenu = $(this).find("ul");
-                submenu.addClass(opt.subMenuClass);
-                submenu.css("display", "none");
-                $(this).addClass(opt.subMenuParent);
-                $(this).addClass(opt.thSubMenuParent); // Add th-item-has-children class
-                $(this).children("a").append(opt.appendElement);
-            });
-    
-            // Toggle Submenu
-            function toggleDropDown($element) {
-                var submenu = $element.children("ul");
-                if (submenu.length > 0) {
-                    $element.toggleClass(opt.subMenuParentToggle);
-                    submenu.slideToggle(opt.toggleSpeed);
-                    submenu.toggleClass(opt.subMenuToggleClass);
                 }
-            }
     
-            // Submenu toggle Button
-            var itemHasChildren = "." + opt.thSubMenuParent + " > a";
-            $(itemHasChildren).each(function () {
-                $(this).on("click", function (e) {
-                    e.preventDefault();
-                    toggleDropDown($(this).parent());
+                // Class Setup for submenus
+                menu.find("." + opt.subMenuParent).each(function () {
+                    var submenu = $(this).children("ul");
+                    submenu.addClass(opt.subMenuClass);
+                    submenu.hide();
+                    $(this).children("a").append(opt.appendElement);
                 });
-            });
     
-            // Menu Show & Hide On Toggle Btn click
-            $(opt.menuToggleBtn).each(function () {
-                $(this).on("click", function () {
+                // Submenu Toggle
+                function toggleSubMenu($element) {
+                    var submenu = $element.children("ul");
+                    if (submenu.length > 0) {
+                        $element.toggleClass(opt.subMenuParentToggle);
+                        submenu.slideToggle(opt.toggleSpeed);
+                        submenu.toggleClass(opt.subMenuToggleClass);
+                    }
+                }
+    
+                // Submenu click handler
+                menu.find("." + opt.subMenuParent + " > a").on("click", function (e) {
+                    e.preventDefault();
+                    toggleSubMenu($(this).parent());
+                });
+    
+                // Toggle Menu on Button Click
+                $(opt.menuToggleBtn).on("click", function (e) {
+                    e.preventDefault();
                     menuToggle();
                 });
-            });
     
-            // Hide Menu On outside click
-            menu.on("click", function (e) {
-                e.stopPropagation();
-                menuToggle();
-            });
+                // Close Menu When Clicking Outside
+                $(document).on("click", function (e) {
+                    if (!$(e.target).closest(".th-menu-wrapper, " + opt.menuToggleBtn).length) {
+                        if (menu.hasClass(opt.bodyToggleClass)) {
+                            menuToggle();
+                        }
+                    }
+                });
     
-            // Stop Hide full menu on menu click
-            menu.find("div").on("click", function (e) {
-                e.stopPropagation();
-            });
-        });
-    };
-    
-    $(".th-menu-wrapper").thmobilemenu();
-
-    /*----------- 22. One Page Nav ----------*/
-    function onePageNav(element) {
-        if ($(element).length > 0) {
-            $(element).each(function () {
-            var link = $(this).find('a');
-            $(this).find(link).each(function () {
-                $(this).on('click', function () {
-                var target = $(this.getAttribute('href'));
-                if (target.length) {
-                    event.preventDefault();
-                    $('html, body').stop().animate({
-                    scrollTop: target.offset().top - 10
-                    }, 1000);
-                };
-    
+                // Stop propagation when clicking inside menu
+                menu.on("click", function (e) {
+                    e.stopPropagation();
                 });
             });
-            })
-        }
-    };
-    onePageNav('.onepage-nav');
-    onePageNav('.scroll-down');
-    //one page sticky menu  
-    $(window).on('scroll', function(){
-        if ($('.onepage-nav').length > 0) {
         };
+    
+        // Initialize the mobile menu
+        $(".th-menu-wrapper").thmobilemenu();
     });
+    
+
+    /*----------- 22. One Page Nav ----------*/
+    $(document).ready(function () {
+        function onePageNav(element) {
+            $(element).find('a').on('click', function (event) {
+                var target = $(this.getAttribute('href')); // Get the target section
+    
+                if (target.length) {
+                    event.preventDefault(); // Prevent default jump
+                    $('html, body').animate({
+                        scrollTop: target.offset().top - 10 // Adjust offset if needed
+                    }, 1000, 'swing'); // 'swing' makes it smooth
+                }
+            });
+        }
+    
+        // Apply the function to the menu and scroll-down button
+        onePageNav('.onepage-nav');
+        onePageNav('.scroll-down');
+    });
+    
 
     /*---------- 04. Sticky fix ----------*/
     $(window).scroll(function () {
@@ -251,60 +240,76 @@
 
     /*----------- 07. Global Slider ----------*/
 
-    $('.th-slider').each(function () {
-
-        var thSlider = $(this);
-        var settings = $(this).data('slider-options');
-
-        // Store references to the navigation Slider
-        var prevArrow = thSlider.find('.slider-prev');
-        var nextArrow = thSlider.find('.slider-next');
-        var paginationEl = thSlider.find('.slider-pagination');
-
-        var autoplayconditon = settings['autoplay'];
-
-        var sliderDefault = { 
-            slidesPerView: 1,
-            spaceBetween: settings['spaceBetween'] ? settings['spaceBetween'] : 24,
-            loop: settings['loop'] == false ? false : true,
-            speed: settings['speed'] ? settings['speed'] : 1000,
-            autoplay: autoplayconditon ? autoplayconditon : {delay: 6000, disableOnInteraction: false},
-            navigation: {
-                nextEl: nextArrow.get(0),
-                prevEl: prevArrow.get(0),  
-            },
-            pagination: {
-                el: paginationEl.get(0),
-                clickable: true, 
-                renderBullet: function (index, className) {
-                    return '<span class="' + className + '" aria-label="Go to Slide ' + (index + 1) + '"></span>';
+    $(document).ready(function () {
+        $('.th-slider').each(function () {
+            var thSlider = $(this);
+    
+            // Get slider options from data attribute and parse it safely
+            var options = thSlider.attr('data-slider-options');
+            try {
+                options = options ? JSON.parse(options) : {};
+            } catch (e) {
+                console.error("Error parsing slider options:", e);
+                options = {};
+            }
+    
+            // Default slider settings
+            var sliderDefault = {
+                slidesPerView: 1,
+                spaceBetween: options.spaceBetween || 24,
+                loop: options.loop !== false, // Defaults to true unless explicitly set to false
+                speed: options.speed || 1000,
+                effect: options.effect || "slide", // Supports 'fade', 'slide', etc.
+                autoHeight: options.autoHeight === "true", // Convert string to boolean
+                autoplay: options.autoplay !== false ? { delay: 6000, disableOnInteraction: false } : false,
+                navigation: {
+                    nextEl: thSlider.find('.slider-next').get(0),
+                    prevEl: thSlider.find('.slider-prev').get(0),
                 },
-            },
-        };
-
-        var options = JSON.parse(thSlider.attr('data-slider-options'));
-        options = $.extend({}, sliderDefault, options);
-        var swiper = new Swiper(thSlider.get(0), options); // Assign the swiper variable
-
-        if ($('.slider-area').length > 0) {
-            $('.slider-area').closest(".container").parent().addClass("arrow-wrap");
-        }
-
+                pagination: {
+                    el: thSlider.find('.slider-pagination').get(0),
+                    clickable: true,
+                    renderBullet: function (index, className) {
+                        return `<span class="${className}" aria-label="Go to Slide ${index + 1}"></span>`;
+                    },
+                },
+            };
+    
+            // Merge user options with default settings
+            var swiperOptions = $.extend({}, sliderDefault, options);
+    
+            // Initialize Swiper
+            var swiper = new Swiper(thSlider.get(0), swiperOptions);
+    
+            // Ensure proper styling for navigation wrapper
+            if ($('.slider-area').length > 0) {
+                $('.slider-area').closest(".container").parent().addClass("arrow-wrap");
+            }
+        });
     });
-
+    
     // Function to add animation classes
     function animationProperties() {
         $('[data-ani]').each(function () {
             var animationName = $(this).data('ani');
             $(this).addClass(animationName);
         });
-
+    
         $('[data-ani-delay]').each(function () {
             var delayTime = $(this).data('ani-delay');
             $(this).css('animation-delay', delayTime);
         });
+    
+        $('[data-ani-duration]').each(function () {
+            var durationTime = $(this).data('ani-duration');
+            $(this).css('animation-duration', durationTime);
+        });
     }
-    animationProperties();
+    
+    $(document).ready(function () {
+        animationProperties();
+    });
+    
 
     // Add click event handlers for external slider arrows based on data attributes
     $('[data-slider-prev], [data-slider-next]').on('click', function () {
@@ -508,29 +513,37 @@
     popupSarchBox( ".popup-search-box", ".searchBoxToggler", ".searchClose", "show" );
 
     /*---------- 10. Popup Sidemenu ----------*/
-    function popupSideMenu($sideMenu, $sideMunuOpen, $sideMenuCls, $toggleCls) {
-        // Sidebar Popup
-        $($sideMunuOpen).on('click', function (e) {
-        e.preventDefault();
-        $($sideMenu).addClass($toggleCls);
-        });
-        $($sideMenu).on('click', function (e) {
-        e.stopPropagation();
-        $($sideMenu).removeClass($toggleCls)
-        });
-        var sideMenuChild = $sideMenu + ' > div';
-        $(sideMenuChild).on('click', function (e) {
-        e.stopPropagation();
-        $($sideMenu).addClass($toggleCls)
-        });
-        $($sideMenuCls).on('click', function (e) {
-        e.preventDefault();
-        e.stopPropagation();
-        $($sideMenu).removeClass($toggleCls);
-        });
-    };
-    popupSideMenu('.sidemenu-cart', '.sideMenuToggler', '.sideMenuCls', 'show');
-    popupSideMenu('.sidemenu-info', '.sideMenuInfo', '.sideMenuCls', 'show');
+    $(document).ready(function () {
+        function popupSideMenu(sideMenu, sideMenuOpen, sideMenuCls, toggleCls) {
+            // Open sidebar when button is clicked
+            $(sideMenuOpen).on('click', function (e) {
+                e.preventDefault();
+                $(sideMenu).addClass(toggleCls);
+            });
+    
+            // Close sidebar when clicking outside the content
+            $(sideMenu).on('click', function (e) {
+                e.stopPropagation();
+                $(sideMenu).removeClass(toggleCls);
+            });
+    
+            // Prevent closing when clicking inside the sidebar content
+            $(sideMenu + ' .sidemenu-content').on('click', function (e) {
+                e.stopPropagation();
+            });
+    
+            // Close button click event
+            $(sideMenuCls).on('click', function (e) {
+                e.preventDefault();
+                e.stopPropagation();
+                $(sideMenu).removeClass(toggleCls);
+            });
+        }
+    
+        // Initialize function for both menus
+        popupSideMenu('.sidemenu-cart', '.sideMenuToggler', '.sideMenuCls', 'show');
+        popupSideMenu('.sidemenu-info', '.sideMenuInfo', '.sideMenuCls', 'show');
+    });
 
     /*----------- 11. Magnific Popup ----------*/
     /* magnificPopup img view */
