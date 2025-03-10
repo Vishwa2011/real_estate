@@ -13,6 +13,7 @@ import BlogDetails from "./pages/BlogDetails";
 import Contact from "./pages/Contact";
 import Faq from "./pages/Faq";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
+import Termsandcondition from "./pages/Termsandcondition";
 
 
 
@@ -34,6 +35,7 @@ function App() {
     <Route path="/Contact" element={<Contact />} />
     <Route path="/Faq" element={<Faq />} />
     <Route path="/PrivacyPolicy" element={<PrivacyPolicy />} />
+    <Route path="/Termsandcondition" element={<Termsandcondition />} />
       
     </Routes>
   </>

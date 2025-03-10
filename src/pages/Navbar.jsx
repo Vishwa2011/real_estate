@@ -16,95 +16,39 @@ export default function Navbar() {
           </div>
           <div className="th-mobile-menu">
             <ul>
+              <li >
+                <a href="/">Home</a>
+                
+              </li>
               <li className="menu-item-has-children">
-                <a href="">Home</a>
+                <a href="/Aboutus">About Us</a>
                 <ul className="sub-menu">
-                  <li>
-                    <a href="">Home Luxury Apartment</a>
+                <li>
+                    <a href="/Aboutus">About Us</a>
                   </li>
                   <li>
-                    <a href="">Home Real Estate Agency</a>
+                    <a href="/Mission">Mission</a>
                   </li>
                   <li>
-                    <a href="">Home Commercial Real Estate</a>
+                    <a href="/Vision">Vision </a>
                   </li>
                 </ul>
+              </li>
+              <li >
+                <a href="/Property">Properties</a>
+               
+              </li>
+              <li >
+                <a href="/Agency">Agencies</a>
+                
+              </li>
+              
+              <li >
+                <a href="/Blog">Blog</a>
+               
               </li>
               <li>
-                <a href="">About Us</a>
-              </li>
-              <li className="menu-item-has-children">
-                <a href="">Properties</a>
-                <ul className="sub-menu">
-                  <li>
-                    <a href="">Properties</a>
-                  </li>
-                  <li>
-                    <a href="">Property Details</a>
-                  </li>
-                </ul>
-              </li>
-              <li className="menu-item-has-children">
-                <a href="">Agencies</a>
-                <ul className="sub-menu">
-                  <li>
-                    <a href="">Agencies</a>
-                  </li>
-                  <li>
-                    <a href="">Agencies Details</a>
-                  </li>
-                </ul>
-              </li>
-              <li className="menu-item-has-children">
-                <a href="#">Pages</a>
-                <ul className="sub-menu">
-                  <li>
-                    <a href="">Agent Page</a>
-                  </li>
-                  <li>
-                    <a href="">Agent Details</a>
-                  </li>
-                  <li>
-                    <a href="">Pricing Page</a>
-                  </li>
-                  <li className="menu-item-has-children">
-                    <a href="">Shop Page</a>
-                    <ul className="sub-menu">
-                      <li>
-                        <a href="">Shop Page</a>
-                      </li>
-                      <li>
-                        <a href="">Shop Details</a>
-                      </li>
-                      <li>
-                        <a href="">Cart Page</a>
-                      </li>
-                      <li>
-                        <a href="">Checkout Page</a>
-                      </li>
-                      <li>
-                        <a href="">Wistlist Page</a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
-                    <a href="">Error Page</a>
-                  </li>
-                </ul>
-              </li>
-              <li className="menu-item-has-children">
-                <a href="">Blog</a>
-                <ul className="sub-menu">
-                  <li>
-                    <a href="">Blog Page</a>
-                  </li>
-                  <li>
-                    <a href="">Blog Details</a>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <a href="">Contact Us</a>
+                <a href="/Contact">Contact Us</a>
               </li>
             </ul>
           </div>
@@ -240,8 +184,11 @@ export default function Navbar() {
                         <a href="/">Home</a>
                       </li>
                       <li className="menu-item-has-children">
-                        <a href="/Aboutus">About Us</a>
+                        <a href="">About Us</a>
                         <ul className="sub-menu">
+                        <li>
+                            <a href="/Aboutus">About Us</a>
+                          </li>
                           <li>
                             <a href="/Mission">Mission</a>
                           </li>

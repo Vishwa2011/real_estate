@@ -132,22 +132,21 @@
     /*----------- 22. One Page Nav ----------*/
     $(document).ready(function () {
         function onePageNav(element) {
-            $(element).find('a').on('click', function (event) {
-                var target = $(this.getAttribute('href')); // Get the target section
+            $(element).find('a[href^="#"]').on('click', function (event) {
+                var target = $($(this).attr('href')); // Get the target section
     
                 if (target.length) {
                     event.preventDefault(); // Prevent default jump
                     $('html, body').animate({
-                        scrollTop: target.offset().top - 10 // Adjust offset if needed
-                    }, 1000, 'swing'); // 'swing' makes it smooth
+                        scrollTop: target.offset().top - 10
+                    }, 1000, 'swing');
                 }
             });
         }
     
-        // Apply the function to the menu and scroll-down button
-        onePageNav('.onepage-nav');
-        onePageNav('.scroll-down');
+        onePageNav('.your-navigation-class');
     });
+    
     
 
     /*---------- 04. Sticky fix ----------*/

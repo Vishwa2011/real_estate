@@ -56,7 +56,7 @@ export default function Footer2() {
                                 <ul className="menu">
                                     <li><a href="/Aboutus">About us</a></li>
                                     <li><a href="/PrivacyPolicy">Privacy Policy</a></li>
-                                    <li><a href="">Terms & Condition</a></li>
+                                    <li><a href="/Termsandcondition">Terms & Condition</a></li>
                                     <li><a href="/Faq">FAQ</a></li>
                                 </ul>
                             </div>
