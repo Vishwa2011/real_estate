@@ -4,7 +4,7 @@ import Footer from "./Footer";
 import { useEffect } from "react";
 import CountUp from "react-countup";
 import gsap from "gsap";
- 
+ import $ from "jquery";
 import { ScrollToPlugin } from "gsap/ScrollToPlugin";
 gsap.registerPlugin(ScrollToPlugin);
 export default function Home() {
@@ -154,6 +154,29 @@ export default function Home() {
   }, []);
 //   scroll-top end 
 
+// img video start 
+useEffect(() => {
+    $(".popup-image").magnificPopup({
+        type: "image",
+        mainClass: 'mfp-zoom-in', 
+        removalDelay: 260,
+        gallery: {
+            enabled: true,
+        },
+    });
+
+    $(".popup-video").magnificPopup({
+        type: "iframe",
+        removalDelay: 260,
+        mainClass: 'mfp-zoom-in', 
+    });
+
+    $(".popup-content").magnificPopup({
+        type: "inline",
+        midClick: true,
+    });
+}, []); 
+// img video end 
 
 
 const counters = [
@@ -189,11 +212,11 @@ const counters = [
             <div className="swiper-slide">
               <div
                 className="hero-inner"
-                data-mask-src="assets/img/hero/hero_1_bg_mask.png"
+                style={{ backgroundImage: `url('')`}}
               >
                 <div
                   className="th-hero-bg"
-                  data-bg-src="assets/img/hero/hero_bg_1_1.jpg"
+                  style={{ backgroundImage: `url('')`}}
                 ></div>
                 {/* <div className="hero-big-text">REALAR</div> */}
                 <div className="container">
@@ -256,11 +279,11 @@ const counters = [
             <div className="swiper-slide">
               <div
                 className="hero-inner"
-                data-mask-src="assets/img/hero/hero_1_bg_mask.png"
+                style={{ backgroundImage: `url('')`}}
               >
                 <div
                   className="th-hero-bg"
-                  data-bg-src="assets/img/hero/hero_bg_1_2.jpg"
+                  style={{ backgroundImage: `url('')`}}
                 ></div>
                 {/* <div className="hero-big-text">REALAR</div> */}
                 <div className="container">
@@ -323,11 +346,11 @@ const counters = [
             <div className="swiper-slide">
               <div
                 className="hero-inner"
-                data-mask-src="assets/img/hero/hero_1_bg_mask.png"
+                style={{ backgroundImage: `url('')`}}
               >
                 <div
                   className="th-hero-bg"
-                  data-bg-src="assets/img/hero/hero_bg_1_3.jpg"
+                  style={{ backgroundImage: `url('')`}}
                 ></div>
                 {/* <div className="hero-big-text">REALAR</div> */}
                 <div className="container">

@@ -4,7 +4,8 @@ export default function Footer() {
   return (
     <div>
        <footer className="footer-wrapper footer-layout1 bg-theme">
-        <div className="footer-wrap bg-smoke" data-mask-src="assets/img/bg/footer-bg-mask.png">
+        <div className="footer-wrap bg-smoke"
+        style={{ backgroundImage: `url('assets/img/bg/footer-bg-mask.png')`}}>
             <div className="widget-area space">
                 <div className="container">
                     <div className="row justify-content-between">
@@ -12,7 +13,7 @@ export default function Footer() {
                             <div className="widget footer-widget">
                                 <div className="th-widget-about">
                                     <div className="about-logo">
-                                        <a href="index.html"><img src="assets/img/logo.svg" alt="Realar" /></a>
+                                        <a href=""><img src="assets/img/logo.svg" alt="Realar" /></a>
                                     </div>
                                     <p className="about-text">Rapidiously myocardinate cross-platform intellectual capital model. Appropriately create interactive infrastructures</p>
                                     <div className="th-social style3">
@@ -62,11 +63,10 @@ export default function Footer() {
                                 <h3 className="widget_title">Useful Link</h3>
                                 <div className="menu-all-pages-container">
                                     <ul className="menu">
-                                        <li><a href="about.html">About us</a></li>
-                                        <li><a href="property.html">Featured Properties</a></li>
-                                        <li><a href="service.html">Our Best Services</a></li>
-                                        <li><a href="contact.html">Request Visit</a></li>
-                                        <li><a href="contact.html">FAQ</a></li>
+                                        <li><a href="/Aboutus">About us</a></li>
+                                        <li><a href="/PrivacyPolicy">Privacy Policy</a></li>
+                                        <li><a href="">Terms & Condition</a></li>
+                                        <li><a href="/Faq">FAQ</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -76,11 +76,11 @@ export default function Footer() {
                                 <h3 className="widget_title">Explore</h3>
                                 <div className="menu-all-pages-container">
                                     <ul className="menu">
-                                        <li><a href="property.html">All Properties</a></li>
-                                        <li><a href="team.html">Our Agents</a></li>
-                                        <li><a href="property.html">All Projects</a></li>
-                                        <li><a href="about.html">Our Process</a></li>
-                                        <li><a href="contact.html">Neighborhood</a></li>
+                                        <li><a href="/Property">All Properties</a></li>
+                                        {/* <li><a href="">Our Agents</a></li>
+                                        <li><a href="">All Projects</a></li> */}
+                                        <li><a href="/Aboutus">Our Process</a></li>
+                                        <li><a href="/Contact">Neighborhood</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -103,14 +103,14 @@ export default function Footer() {
                     <div className="row gy-2 align-items-center">
                         <div className="col-lg-6">
                             <p className="copyright-text">
-                                Copyright <i className="fal fa-copyright"></i> 2024 <a href="index.html">Realar</a>, All rights reserved.</p>
+                                Copyright <i className="fal fa-copyright"></i> 2024 <a href="">Realar</a>, All rights reserved.</p>
                         </div>
                         <div className="col-lg-6 text-center text-lg-end">
                             <div className="footer-links">
                                 <ul>
-                                    <li><a href="contact.html">Terms of service</a></li>
-                                    <li><a href="contact.html">Privacy policy</a></li>
-                                    <li><a href="contact.html">Cookies</a></li>
+                                    <li><a href="">Terms of service</a></li>
+                                    <li><a href="">Privacy policy</a></li>
+                                    <li><a href="">Cookies</a></li>
                                 </ul>
                             </div>
                         </div>
