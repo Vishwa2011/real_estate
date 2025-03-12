@@ -194,7 +194,7 @@ useEffect(() => {
       {/* <!-- Breadcumb --> */}
       <div
         className="breadcumb-wrapper "
-        style={{ backgroundImage: `url('assets/img/bg/breadcumb-bg.jpg')`,backgroundPosition:'center' }}
+        style={{ backgroundImage: `url('/assets/pic/contactmain.jpg')`,backgroundPosition:'center' }}
       >
         <div className="container">
           <div className="row justify-content-center">
@@ -261,7 +261,11 @@ useEffect(() => {
         </div>
     </div>
     {/* <!--Contact Area --> */}
-    <div className="space contact-area-3 z-index-common" data-bg-src="assets/img/bg/contact-bg-1-1.png" data-overlay="title" data-opacity="3">
+    <div className="space contact-area-3 z-index-common" style={{
+    backgroundImage: "url('/assets/pic/contact1.webp')",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+  }}>
         <div className="contact-bg-shape3-1 spin shape-mockup " data-bottom="5%" data-left="12%">
             <img src="assets/img/shape/section_shape_2_1.jpg" alt="img" />
         </div>
@@ -310,7 +314,7 @@ useEffect(() => {
             </div>
             <div className="location-map-address bg-theme">
                 <div className="thumb">
-                    <img src="assets/img/property/property_inner_1.jpg" alt="img" />
+                    <img src="/assets/pic/contactmap.jpg" alt="img" />
                 </div>
                 <div className="media-body">
                     <h4 className="title">Address:</h4>

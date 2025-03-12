@@ -200,7 +200,7 @@ useEffect(() => {
           <Navbar />
             
           {/* <!-- Breadcumb --> */}
-    <div className="breadcumb-wrapper " style={{ backgroundImage: `url('')`}}>
+    <div className="breadcumb-wrapper " style={{ backgroundImage: `url('/assets/pic/aboutmain.png')`}}>
         <div className="container">
             <div className="row justify-content-center">
                 <div className="col-xl-9">
@@ -270,7 +270,7 @@ useEffect(() => {
                         <div className="col-lg-6">
                             <div className="img-box3">
                                 <div className="img1">
-                                    <img src="assets/img/normal/about_3_3.png" alt="About" />
+                                    <img src="/assets/pic/people.jpg" alt="About" />
                                 </div>
                             </div>
                         </div>
@@ -311,7 +311,7 @@ useEffect(() => {
                             <h3 className="box-title"><a href="">Property Valuation</a></h3>
                             <p className="box-text">Generous amounts of south facing glazing maximize the solar gains for most of the year.</p>
                             <div className="service-img img-shine">
-                                <img src="assets/img/service/1-1.png" alt="img" />
+                                <img src="/assets/pic/about1.jpg" alt="img" />
                             </div>
                         </div>
                     </div>
@@ -323,7 +323,7 @@ useEffect(() => {
                             <h3 className="box-title"><a href="">Property Management</a></h3>
                             <p className="box-text">All living, dining, kitchen and play areas were devised by attached to the home.</p>
                             <div className="service-img img-shine">
-                                <img src="assets/img/service/1-2.png" alt="img" />
+                                <img src="/assets/pic/about2.jpg" alt="img" />
                             </div>
                         </div>
                     </div>
@@ -335,7 +335,7 @@ useEffect(() => {
                             <h3 className="box-title"><a href="">Invest Opportunities</a></h3>
                             <p className="box-text">All-inclusive real estate services to facilitate the easy management of your properties.</p>
                             <div className="service-img img-shine">
-                                <img src="assets/img/service/1-3.png" alt="img" />
+                                <img src="/assets/pic/about3.jpg" alt="img" />
                             </div>
                         </div>
                     </div>
@@ -374,7 +374,7 @@ useEffect(() => {
                         <div className="swiper-slide">
                             <div className="testi-grid-wrap2">
                                 <div className="testi-grid-thumb">
-                                    <img src="assets/img/testimonial/testi_thumb_2_1.png" alt="img" />
+                                    <img src="/assets/pic/testimonial1.jpg" alt="img" />
                                 </div>
                                 <div className="testi-card style2">
                                     <div className="testi-grid_review">
@@ -386,7 +386,7 @@ useEffect(() => {
                                             <img src="assets/img/icon/qoute2.svg" alt="icon" />
                                         </div>
                                         <div className="avatar">
-                                            <img src="assets/img/testimonial/testi_2_1.png" alt="avatar" />
+                                            <img src="/assets/pic/avatar.jpg" alt="avatar" />
                                         </div>
                                         <div className="testi-card_profile-details">
                                             <h3 className="testi-card_name">Andrew Simon</h3>
@@ -400,7 +400,7 @@ useEffect(() => {
                         <div className="swiper-slide">
                             <div className="testi-grid-wrap2">
                                 <div className="testi-grid-thumb">
-                                    <img src="assets/img/testimonial/testi_thumb_2_2.png" alt="img" />
+                                    <img src="/assets/pic/testimonial2.jpg" alt="img" />
                                 </div>
                                 <div className="testi-card style2">
                                     <div className="testi-grid_review">
@@ -412,7 +412,7 @@ useEffect(() => {
                                             <img src="assets/img/icon/qoute2.svg" alt="icon" />
                                         </div>
                                         <div className="avatar">
-                                            <img src="assets/img/testimonial/testi_2_2.png" alt="avatar" />
+                                            <img src="/assets/pic/avatar.jpg" alt="avatar" />
                                         </div>
                                         <div className="testi-card_profile-details">
                                             <h3 className="testi-card_name">Ralph Edwards</h3>
@@ -426,7 +426,7 @@ useEffect(() => {
                         <div className="swiper-slide">
                             <div className="testi-grid-wrap2">
                                 <div className="testi-grid-thumb">
-                                    <img src="assets/img/testimonial/testi_thumb_2_1.png" alt="img" />
+                                    <img src="/assets/pic/testimonial3.jpeg" alt="img" />
                                 </div>
                                 <div className="testi-card style2">
                                     <div className="testi-grid_review">
@@ -438,7 +438,7 @@ useEffect(() => {
                                             <img src="assets/img/icon/qoute2.svg" alt="icon" />
                                         </div>
                                         <div className="avatar">
-                                            <img src="assets/img/testimonial/testi_2_1.png" alt="avatar" />
+                                            <img src="/assets/pic/avatar.jpg" alt="avatar" />
                                         </div>
                                         <div className="testi-card_profile-details">
                                             <h3 className="testi-card_name">Andrew Simon</h3>
@@ -452,7 +452,7 @@ useEffect(() => {
                         <div className="swiper-slide">
                             <div className="testi-grid-wrap2">
                                 <div className="testi-grid-thumb">
-                                    <img src="assets/img/testimonial/testi_thumb_2_2.png" alt="img" />
+                                    <img src="/assets/pic/testimonial4.jpg" alt="img" />
                                 </div>
                                 <div className="testi-card style2">
                                     <div className="testi-grid_review">
@@ -464,7 +464,7 @@ useEffect(() => {
                                             <img src="assets/img/icon/qoute2.svg" alt="icon" />
                                         </div>
                                         <div className="avatar">
-                                            <img src="assets/img/testimonial/testi_2_2.png" alt="avatar" />
+                                            <img src="/assets/pic/avatar.jpg" alt="avatar" />
                                         </div>
                                         <div className="testi-card_profile-details">
                                             <h3 className="testi-card_name">Ralph Edwards</h3>
@@ -508,7 +508,7 @@ useEffect(() => {
                             <div className="th-team team-card style3">
                                 <div className="img-wrap">
                                     <div className="team-img">
-                                        <img src="assets/img/team/team_2_1.png" alt="Team" />
+                                        <img src="/assets/pic/team1.jpg" alt="Team" />
                                     </div>
                                     <div className="th-social-wrap">
                                         <div className="th-social">
@@ -536,7 +536,7 @@ useEffect(() => {
                             <div className="th-team team-card style3">
                                 <div className="img-wrap">
                                     <div className="team-img">
-                                        <img src="assets/img/team/team_2_2.png" alt="Team" />
+                                        <img src="/assets/pic/team2.jpg" alt="Team" />
                                     </div>
                                     <div className="th-social-wrap">
                                         <div className="th-social">
@@ -564,7 +564,7 @@ useEffect(() => {
                             <div className="th-team team-card style3">
                                 <div className="img-wrap">
                                     <div className="team-img">
-                                        <img src="assets/img/team/team_2_3.png" alt="Team" />
+                                        <img src="/assets/pic/team3.jpg" alt="Team" />
                                     </div>
                                     <div className="th-social-wrap">
                                         <div className="th-social">
@@ -592,7 +592,7 @@ useEffect(() => {
                             <div className="th-team team-card style3">
                                 <div className="img-wrap">
                                     <div className="team-img">
-                                        <img src="assets/img/team/team_2_4.png" alt="Team" />
+                                        <img src="/assets/pic/team4.jpg" alt="Team" />
                                     </div>
                                     <div className="th-social-wrap">
                                         <div className="th-social">
@@ -615,122 +615,11 @@ useEffect(() => {
                             </div>
                         </div>
 
-                        {/* <!-- Single Item --> */}
-                        <div className="swiper-slide">
-                            <div className="th-team team-card style3">
-                                <div className="img-wrap">
-                                    <div className="team-img">
-                                        <img src="assets/img/team/team_2_1.png" alt="Team" />
-                                    </div>
-                                    <div className="th-social-wrap">
-                                        <div className="th-social">
-                                            <a target="_blank" href="https://facebook.com/"><i className="fab fa-facebook-f"></i></a>
-                                            <a target="_blank" href="https://twitter.com/"><i className="fab fa-twitter"></i></a>
-                                            <a target="_blank" href="https://linkedin.com/"><i className="fab fa-linkedin-in"></i></a>
-                                            <a target="_blank" href="https://youtube.com/"><i className="fab fa-youtube"></i></a>
-                                            <a target="_blank" href="https://instagram.com/"><i className="fab fa-instagram"></i></a>
-                                        </div>
-                                        <a className="icon-btn" href=""><img src="assets/img/icon/arrow-right.svg" alt="img" /></a>
-                                    </div>
-                                </div>
-                                <div className="team-card-content">
-                                    <div className="media-left">
-                                        <h3 className="box-title"><a href="">Janny Wilson</a></h3>
-                                        <span className="team-desig">Property Expert</span>
-                                    </div>
-                                    <a className="icon-btn" href="tel:09876543210"><img src="assets/img/icon/phone.svg" alt="img" /></a>
-                                </div>
-                            </div>
-                        </div>
-
-                        {/* <!-- Single Item --> */}
-                        <div className="swiper-slide">
-                            <div className="th-team team-card style3">
-                                <div className="img-wrap">
-                                    <div className="team-img">
-                                        <img src="assets/img/team/team_2_2.png" alt="Team" />
-                                    </div>
-                                    <div className="th-social-wrap">
-                                        <div className="th-social">
-                                            <a target="_blank" href="https://facebook.com/"><i className="fab fa-facebook-f"></i></a>
-                                            <a target="_blank" href="https://twitter.com/"><i className="fab fa-twitter"></i></a>
-                                            <a target="_blank" href="https://linkedin.com/"><i className="fab fa-linkedin-in"></i></a>
-                                            <a target="_blank" href="https://youtube.com/"><i className="fab fa-youtube"></i></a>
-                                            <a target="_blank" href="https://instagram.com/"><i className="fab fa-instagram"></i></a>
-                                        </div>
-                                        <a className="icon-btn" href=""><img src="assets/img/icon/arrow-right.svg" alt="img" /></a>
-                                    </div>
-                                </div>
-                                <div className="team-card-content">
-                                    <div className="media-left">
-                                        <h3 className="box-title"><a href="">Andrew Richard</a></h3>
-                                        <span className="team-desig">Property Expert</span>
-                                    </div>
-                                    <a className="icon-btn" href="tel:09876543210"><img src="assets/img/icon/phone.svg" alt="img" /></a>
-                                </div>
-                            </div>
-                        </div>
-
-                        {/* <!-- Single Item --> */}
-                        <div className="swiper-slide">
-                            <div className="th-team team-card style3">
-                                <div className="img-wrap">
-                                    <div className="team-img">
-                                        <img src="assets/img/team/team_2_3.png" alt="Team" />
-                                    </div>
-                                    <div className="th-social-wrap">
-                                        <div className="th-social">
-                                            <a target="_blank" href="https://facebook.com/"><i className="fab fa-facebook-f"></i></a>
-                                            <a target="_blank" href="https://twitter.com/"><i className="fab fa-twitter"></i></a>
-                                            <a target="_blank" href="https://linkedin.com/"><i className="fab fa-linkedin-in"></i></a>
-                                            <a target="_blank" href="https://youtube.com/"><i className="fab fa-youtube"></i></a>
-                                            <a target="_blank" href="https://instagram.com/"><i className="fab fa-instagram"></i></a>
-                                        </div>
-                                        <a className="icon-btn" href=""><img src="assets/img/icon/arrow-right.svg" alt="img" /></a>
-                                    </div>
-                                </div>
-                                <div className="team-card-content">
-                                    <div className="media-left">
-                                        <h3 className="box-title"><a href="">Zarin Wilson</a></h3>
-                                        <span className="team-desig">Property Expert</span>
-                                    </div>
-                                    <a className="icon-btn" href="tel:09876543210"><img src="assets/img/icon/phone.svg" alt="img" /></a>
-                                </div>
-                            </div>
-                        </div>
-
-                        {/* <!-- Single Item --> */}
-                        <div className="swiper-slide">
-                            <div className="th-team team-card style3">
-                                <div className="img-wrap">
-                                    <div className="team-img">
-                                        <img src="assets/img/team/team_2_4.png" alt="Team" />
-                                    </div>
-                                    <div className="th-social-wrap">
-                                        <div className="th-social">
-                                            <a target="_blank" href="https://facebook.com/"><i className="fab fa-facebook-f"></i></a>
-                                            <a target="_blank" href="https://twitter.com/"><i className="fab fa-twitter"></i></a>
-                                            <a target="_blank" href="https://linkedin.com/"><i className="fab fa-linkedin-in"></i></a>
-                                            <a target="_blank" href="https://youtube.com/"><i className="fab fa-youtube"></i></a>
-                                            <a target="_blank" href="https://instagram.com/"><i className="fab fa-instagram"></i></a>
-                                        </div>
-                                        <a className="icon-btn" href=""><img src="assets/img/icon/arrow-right.svg" alt="img" /></a>
-                                    </div>
-                                </div>
-                                <div className="team-card-content">
-                                    <div className="media-left">
-                                        <h3 className="box-title"><a href="">Michel Smith</a></h3>
-                                        <span className="team-desig">Property Expert</span>
-                                    </div>
-                                    <a className="icon-btn" href="tel:09876543210"><img src="assets/img/icon/phone.svg" alt="img" /></a>
-                                </div>
-                            </div>
-                        </div>
 
                     </div>
                 </div>
-                <button data-slider-prev="#teamSlider3" className="slider-arrow style6 slider-prev"><img src="assets/img/icon/arrow-left.svg" alt="icon" /></button>
-                <button data-slider-next="#teamSlider3" className="slider-arrow style6 slider-next"><img src="assets/img/icon/arrow-right.svg" alt="icon" /></button>
+                {/* <button data-slider-prev="#teamSlider3" className="slider-arrow style6 slider-prev"><img src="assets/img/icon/arrow-left.svg" alt="icon" /></button>
+                <button data-slider-next="#teamSlider3" className="slider-arrow style6 slider-next"><img src="assets/img/icon/arrow-right.svg" alt="icon" /></button> */}
             </div>
         </div>
     </section>

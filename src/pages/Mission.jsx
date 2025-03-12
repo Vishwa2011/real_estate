@@ -201,7 +201,7 @@ export default function Mission() {
       {/* <!-- Breadcumb --> */}
       <div
         className="breadcumb-wrapper "
-        style={{ backgroundImage: `url('')` }}
+        style={{ backgroundImage: `url('/assets/pic/missionmain.webp')` }}
       >
         <div className="container">
           <div className="row justify-content-center">
@@ -236,7 +236,7 @@ export default function Mission() {
                     <div className="col-lg-5">
                         <div className="img-box3">
                             <div className="img1">
-                                <img src="assets/img/normal/about_3_2.png" alt="About" />
+                                <img src="/assets/pic/mission1.jpg" alt="About" />
                             </div>
                         </div>
                     </div>
