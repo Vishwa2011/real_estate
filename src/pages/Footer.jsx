@@ -4,8 +4,9 @@ export default function Footer() {
   return (
     <div>
        <footer className="footer-wrapper footer-layout1 bg-theme">
-        <div className="footer-wrap bg-smoke"
-        style={{ backgroundImage: `url('assets/img/bg/footer-bg-mask.png')`}}>
+        <div className="footer-wrap bg-smoke" style={{borderRadius:'30px '}}
+        // style={{ backgroundImage: `url('assets/img/bg/footer-bg-mask.png')`}}
+        >
             <div className="widget-area space">
                 <div className="container">
                     <div className="row justify-content-between">
@@ -108,8 +109,8 @@ export default function Footer() {
                         <div className="col-lg-6 text-center text-lg-end">
                             <div className="footer-links">
                                 <ul>
-                                    <li><a href="">Terms of service</a></li>
-                                    <li><a href="">Privacy policy</a></li>
+                                    <li><a href="/Termsandcondition">Terms of service</a></li>
+                                    <li><a href="/PrivacyPolicy">Privacy policy</a></li>
                                     <li><a href="">Cookies</a></li>
                                 </ul>
                             </div>

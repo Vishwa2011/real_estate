@@ -599,7 +599,7 @@ export default function Agency() {
                                 <a href="">Sale</a>
                             </div>
                         </div>
-                        <div className="widget widget_banner  " data-bg-src="assets/img/widget/widget-banner.png">
+                        <div className="widget widget_banner  "style={{ backgroundImage: `url('assets/img/widget/widget-banner.png')`,backgroundPosition:'center' }}>
                             <div className="widget-banner text-center">
                                 <h3 className="title">Need Help? We Are Here To Help You</h3>
                                 <div className="logo"><img src="assets/img/logo.svg" alt="img" /></div>
