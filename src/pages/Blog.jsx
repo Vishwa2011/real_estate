@@ -194,7 +194,7 @@ useEffect(() => {
       {/* <!-- Breadcumb --> */}
       <div
         className="breadcumb-wrapper "
-        style={{ backgroundImage: `url('assets/img/bg/breadcumb-bg.jpg')`,backgroundPosition:'center' }}
+        style={{ backgroundImage: `url('assets/pic/blogmain.jpg')`,backgroundPosition:'center' }}
       >
         <div className="container">
           <div className="row justify-content-center">
@@ -220,7 +220,7 @@ useEffect(() => {
                 <div className="col-xxl-8 col-lg-7">
                     <div className="th-blog blog-single has-post-thumbnail">
                         <div className="blog-img">
-                            <a href=""><img src="assets/img/blog/blog-s-1-1.jpg" alt="Blog Image" /></a>
+                            <a href=""><img src="/assets/pic/blog1.webp" alt="Blog Image" /></a>
                         </div>
                         <div className="blog-content">
                             <div className="blog-meta">
@@ -238,10 +238,10 @@ useEffect(() => {
                         <div className="blog-img th-slider" data-slider-options='{"effect":"fade"}'>
                             <div className="swiper-wrapper">
                                 <div className="swiper-slide">
-                                    <a href=""><img src="assets/img/blog/blog-s-1-2.jpg" alt="Blog Image" /></a>
+                                    <a href=""><img src="/assets/pic/blog2.jpg" alt="Blog Image" /></a>
                                 </div>
                                 <div className="swiper-slide">
-                                    <a href=""><img src="assets/img/blog/blog-s-1-3.jpg" alt="Blog Image" /></a>
+                                    <a href=""><img src="/assets/pic/blog3.jpg" alt="Blog Image" /></a>
                                 </div>
                             </div>
                             <button className="slider-arrow slider-prev"><i className="far fa-arrow-left"></i></button>
@@ -275,7 +275,7 @@ useEffect(() => {
 
                     <div className="th-blog blog-single has-post-thumbnail">
                         <div className="blog-img" data-overlay="black" data-opacity="5">
-                            <a href=""><img src="assets/img/blog/blog-s-1-3.jpg" alt="Blog Image" /></a>
+                            <a href=""><img src="/assets/pic/blog4.avif" alt="Blog Image" /></a>
                             <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" className="play-btn popup-video"><i className="fas fa-play"></i></a>
                         </div>
                         <div className="blog-content">
@@ -355,7 +355,7 @@ useEffect(() => {
                             <div className="recent-post-wrap">
                                 <div className="recent-post">
                                     <div className="media-img">
-                                        <a href=""><img src="assets/img/blog/recent-post-1-1.jpg" alt="Blog Image" /></a>
+                                        <a href=""><img src="/assets/pic/blog5.avif" alt="Blog Image" /></a>
                                     </div>
                                     <div className="media-body">
                                         <h4 className="post-title"><a className="text-inherit" href="">Exploring The Green Spaces Of Realar Residence</a></h4>
@@ -366,7 +366,7 @@ useEffect(() => {
                                 </div>
                                 <div className="recent-post">
                                     <div className="media-img">
-                                        <a href=""><img src="assets/img/blog/recent-post-1-2.jpg" alt="Blog Image" /></a>
+                                        <a href=""><img src="/assets/pic/blog6.webp" alt="Blog Image" /></a>
                                     </div>
                                     <div className="media-body">
                                         <h4 className="post-title"><a className="text-inherit" href="">Harmony With Nature Of Realar Residence</a></h4>
@@ -377,7 +377,7 @@ useEffect(() => {
                                 </div>
                                 <div className="recent-post">
                                     <div className="media-img">
-                                        <a href=""><img src="assets/img/blog/recent-post-1-3.jpg" alt="Blog Image" /></a>
+                                        <a href=""><img src="/assets/pic/blog7.png" alt="Blog Image" /></a>
                                     </div>
                                     <div className="media-body">
                                         <h4 className="post-title"><a className="text-inherit" href="">Exploring The Green Spaces Of Realar Residence</a></h4>
@@ -401,7 +401,7 @@ useEffect(() => {
                                 <a href="">Sale</a>
                             </div>
                         </div>
-                        <div className="widget widget_banner  " style={{ backgroundImage: `url('assets/img/widget/widget-banner.png')` }}>
+                        <div className="widget widget_banner  " style={{ backgroundImage: `url('/assets/pic/blog8.webp')`,backgroundRepeat:'no-repeat' }}>
                             <div className="widget-banner text-center">
                                 <h3 className="title">Need Help? We Are Here To Help You</h3>
                                 <div className="logo"><img src="assets/img/logo.svg" alt="img" /></div>

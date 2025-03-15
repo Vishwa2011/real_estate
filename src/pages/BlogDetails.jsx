@@ -194,7 +194,7 @@ useEffect(() => {
       {/* <!-- Breadcumb --> */}
       <div
         className="breadcumb-wrapper "
-        style={{ backgroundImage: `url('assets/img/bg/breadcumb-bg.jpg')`,backgroundPosition:'center' }}
+        style={{ backgroundImage: `url('/assets/pic/blogdetailsmain.jpeg')`,backgroundPosition:'center',backgroundRepeat:'no-repeat' }}
       >
         <div className="container">
           <div className="row justify-content-center">
@@ -220,7 +220,7 @@ useEffect(() => {
                 <div className="col-xxl-8 col-lg-7">
                     <div className="th-blog blog-single mb-0">
                         <div className="blog-img">
-                            <img src="assets/img/blog/blog-s-1-1.jpg" alt="Blog Image" />
+                            <img src="/assets/pic/blogdetails1.png" alt="Blog Image" />
                         </div>
                         <div className="blog-content">
                             <div className="blog-meta">
@@ -241,7 +241,7 @@ useEffect(() => {
                             <h2 className="blog-title">Residence is not just a place to live it's asustainable way of life.</h2>
                             <p className="blog-text mt-25">‍Whether you work from home or commute to a nearby office, the energy-efficient features of your home contribute to a productive and eco-conscious workday. Smart home systems allow you to monitor and control energy usage, ensuring that your environmental impact remains minimal.</p>
                             <div className="blog-img mb-40">
-                                <img src="assets/img/blog/blog_inner_1.jpg" alt="img" />
+                                <img src="/assets/pic/blogdetails5.jpg" alt="img" />
                             </div>
                             <div className="checklist">
                                 <ul>
@@ -280,7 +280,7 @@ useEffect(() => {
                             <li className="th-comment-item">
                                 <div className="th-post-comment">
                                     <div className="comment-avater">
-                                        <img src="assets/img/blog/comment-author-1.jpg" alt="Comment Author" />
+                                        <img src="/assets/pic/avatar.jpg" alt="Comment Author" />
                                     </div>
                                     <div className="comment-content">
                                         <h3 className="name">Adam Jhon</h3>
@@ -295,7 +295,7 @@ useEffect(() => {
                                     <li className="th-comment-item">
                                         <div className="th-post-comment">
                                             <div className="comment-avater">
-                                                <img src="assets/img/blog/comment-author-2.jpg" alt="Comment Author" />
+                                                <img src="/assets/pic/avatar.jpg" alt="Comment Author" />
                                             </div>
                                             <div className="comment-content">
                                                 <h3 className="name">Jhon Abraham</h3>
@@ -312,7 +312,7 @@ useEffect(() => {
                             <li className="th-comment-item">
                                 <div className="th-post-comment">
                                     <div className="comment-avater">
-                                        <img src="assets/img/blog/comment-author-3.jpg" alt="Comment Author" />
+                                        <img src="/assets/pic/avatar.jpg" alt="Comment Author" />
                                     </div>
                                     <div className="comment-content">
                                         <h3 className="name">Anadi Juila</h3>
@@ -396,7 +396,7 @@ useEffect(() => {
                             <div className="recent-post-wrap">
                                 <div className="recent-post">
                                     <div className="media-img">
-                                        <a href="blog-details.html"><img src="assets/img/blog/recent-post-1-1.jpg" alt="Blog Image" /></a>
+                                        <a href="blog-details.html"><img src="/assets/pic/blogdetail2.webp" alt="Blog Image" /></a>
                                     </div>
                                     <div className="media-body">
                                         <h4 className="post-title"><a className="text-inherit" href="blog-details.html">Exploring The Green Spaces Of Realar Residence</a></h4>
@@ -407,7 +407,7 @@ useEffect(() => {
                                 </div>
                                 <div className="recent-post">
                                     <div className="media-img">
-                                        <a href="blog-details.html"><img src="assets/img/blog/recent-post-1-2.jpg" alt="Blog Image" /></a>
+                                        <a href="blog-details.html"><img src="/assets/pic/blogdetails3.webp" alt="Blog Image" /></a>
                                     </div>
                                     <div className="media-body">
                                         <h4 className="post-title"><a className="text-inherit" href="blog-details.html">Harmony With Nature Of Realar Residence</a></h4>
@@ -418,7 +418,7 @@ useEffect(() => {
                                 </div>
                                 <div className="recent-post">
                                     <div className="media-img">
-                                        <a href="blog-details.html"><img src="assets/img/blog/recent-post-1-3.jpg" alt="Blog Image" /></a>
+                                        <a href="blog-details.html"><img src="/assets/pic/blogdetails4.webp" alt="Blog Image" /></a>
                                     </div>
                                     <div className="media-body">
                                         <h4 className="post-title"><a className="text-inherit" href="blog-details.html">Exploring The Green Spaces Of Realar Residence</a></h4>
@@ -442,7 +442,7 @@ useEffect(() => {
                                 <a href="blog.html">Sale</a>
                             </div>
                         </div>
-                        <div className="widget widget_banner  " style={{ backgroundImage: `url('assets/img/widget/widget-banner.png')` }}>
+                        <div className="widget widget_banner  " style={{ backgroundImage: `url('/assets/pic/blog8.webp')` }}>
                             <div className="widget-banner text-center">
                                 <h3 className="title">Need Help? We Are Here To Help You</h3>
                                 <div className="logo"><img src="assets/img/logo.svg" alt="img" /></div>

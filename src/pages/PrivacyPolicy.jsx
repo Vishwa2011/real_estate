@@ -201,7 +201,7 @@ export default function PrivacyPolicy() {
       {/* <!-- Breadcumb --> */}
       <div
         className="breadcumb-wrapper "
-        style={{ backgroundImage: `url('')` }}
+        style={{ backgroundImage: `url('/assets/pic/privacymain.jpg')` }}
       >
         <div className="container">
           <div className="row justify-content-center">

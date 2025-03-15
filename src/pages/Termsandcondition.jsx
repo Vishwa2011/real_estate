@@ -201,7 +201,7 @@ export default function Termsandcondition() {
             {/* <!-- Breadcumb --> */}
             <div
                 className="breadcumb-wrapper "
-                style={{ backgroundImage: `url('')` }}
+                style={{ backgroundImage: `url('https://content.jdmagicbox.com/v2/comp/hyderabad/s8/040pxx40.xx40.220711131139.r7s8/catalogue/night-nest-farm-house-medchal-rangareddy-farm-house-on-rent-dwkrtk1qyy.jpg')`,backgroundPosition:'center' }}
             >
                 <div className="container">
                     <div className="row justify-content-center">
