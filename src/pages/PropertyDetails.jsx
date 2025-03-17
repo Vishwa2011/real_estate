@@ -227,10 +227,35 @@ export default function PropertyDetails() {
                     <div className="swiper-wrapper">
                         <div className="swiper-slide">
                             <div className="property-slider-img">
-                                <img src="assets/img/property/property_inner_1.jpg" alt="img" />
+                                <img src="/assets/pic/pd1 (1).webp" alt="img" />
                             </div>
                         </div>
                         <div className="swiper-slide">
+                            <div className="property-slider-img">
+                                <img src="/assets/pic/pd2.jpg" alt="img" />
+                            </div>
+                        </div>
+                        <div className="swiper-slide">
+                            <div className="property-slider-img">
+                                <img src="/assets/pic/pd3.jpg" alt="img" />
+                            </div>
+                        </div>
+                        <div className="swiper-slide">
+                            <div className="property-slider-img">
+                                <img src="/assets/pic/pd4.jpg" alt="img" />
+                            </div>
+                        </div>
+                        <div className="swiper-slide">
+                            <div className="property-slider-img">
+                                <img src="/assets/pic/pd5.jpg" alt="img" />
+                            </div>
+                        </div>
+                        <div className="swiper-slide">
+                            <div className="property-slider-img">
+                                <img src="/assets/pic/pd6.jpg" alt="img" />
+                            </div>
+                        </div>
+                        {/* <div className="swiper-slide">
                             <div className="property-slider-img">
                                 <img src="assets/img/property/property_inner_2.jpg" alt="img" />
                             </div>
@@ -249,42 +274,42 @@ export default function PropertyDetails() {
                             <div className="property-slider-img">
                                 <img src="assets/img/property/property_inner_5.jpg" alt="img" />
                             </div>
-                        </div>
-                        <div className="swiper-slide">
-                            <div className="property-slider-img">
-                                <img src="assets/img/property/property_inner_1.jpg" alt="img" />
-                            </div>
-                        </div>
-                        <div className="swiper-slide">
-                            <div className="property-slider-img">
-                                <img src="assets/img/property/property_inner_2.jpg" alt="img" />
-                            </div>
-                        </div>
-                        <div className="swiper-slide">
-                            <div className="property-slider-img">
-                                <img src="assets/img/property/property_inner_3.jpg" alt="img" />
-                            </div>
-                        </div>
-                        <div className="swiper-slide">
-                            <div className="property-slider-img">
-                                <img src="assets/img/property/property_inner_4.jpg" alt="img" />
-                            </div>
-                        </div>
-                        <div className="swiper-slide">
-                            <div className="property-slider-img">
-                                <img src="assets/img/property/property_inner_5.jpg" alt="img" />
-                            </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
                 <div className="swiper th-slider property-thumb-slider" data-slider-options='{"effect":"slide","loop":true,"breakpoints":{"0":{"slidesPerView":2},"576":{"slidesPerView":"2"},"768":{"slidesPerView":"3"},"992":{"slidesPerView":"3"},"1200":{"slidesPerView":"4"}},"autoplayDisableOnInteraction":"true"}'>
                     <div className="swiper-wrapper">
                         <div className="swiper-slide">
                             <div className="property-slider-img">
-                                <img src="assets/img/property/property_inner_1.jpg" alt="Image" />
+                                <img src="/assets/pic/pd1 (1).webp" alt="Image" />
                             </div>
                         </div>
                         <div className="swiper-slide">
+                            <div className="property-slider-img">
+                                <img src="/assets/pic/pd2.jpg" alt="Image" />
+                            </div>
+                        </div>
+                        <div className="swiper-slide">
+                            <div className="property-slider-img">
+                                <img src="/assets/pic/pd3.jpg" alt="Image" />
+                            </div>
+                        </div>
+                        <div className="swiper-slide">
+                            <div className="property-slider-img">
+                                <img src="/assets/pic/pd4.jpg" alt="Image" />
+                            </div>
+                        </div>
+                        <div className="swiper-slide">
+                            <div className="property-slider-img">
+                                <img src="/assets/pic/pd5.jpg" alt="Image" />
+                            </div>
+                        </div>
+                        <div className="swiper-slide">
+                            <div className="property-slider-img">
+                                <img src="/assets/pic/pd6.jpg" alt="Image" />
+                            </div>
+                        </div>
+                        {/* <div className="swiper-slide">
                             <div className="property-slider-img">
                                 <img src="assets/img/property/property_inner_2.jpg" alt="Image" />
                             </div>
@@ -303,32 +328,7 @@ export default function PropertyDetails() {
                             <div className="property-slider-img">
                                 <img src="assets/img/property/property_inner_5.jpg" alt="Image" />
                             </div>
-                        </div>
-                        <div className="swiper-slide">
-                            <div className="property-slider-img">
-                                <img src="assets/img/property/property_inner_1.jpg" alt="Image" />
-                            </div>
-                        </div>
-                        <div className="swiper-slide">
-                            <div className="property-slider-img">
-                                <img src="assets/img/property/property_inner_2.jpg" alt="Image" />
-                            </div>
-                        </div>
-                        <div className="swiper-slide">
-                            <div className="property-slider-img">
-                                <img src="assets/img/property/property_inner_3.jpg" alt="Image" />
-                            </div>
-                        </div>
-                        <div className="swiper-slide">
-                            <div className="property-slider-img">
-                                <img src="assets/img/property/property_inner_4.jpg" alt="Image" />
-                            </div>
-                        </div>
-                        <div className="swiper-slide">
-                            <div className="property-slider-img">
-                                <img src="assets/img/property/property_inner_5.jpg" alt="Image" />
-                            </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
 
