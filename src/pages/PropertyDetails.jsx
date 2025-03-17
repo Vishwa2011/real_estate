@@ -200,7 +200,7 @@ export default function PropertyDetails() {
       {/* <!-- Breadcumb --> */}
       <div
         className="breadcumb-wrapper "
-        style={{ backgroundImage: `url('')` }}
+        style={{ backgroundImage: `url('assets/pic/propertydetailsmain.webp')`,backgroundPosition:'center' }}
       >
         <div className="container">
           <div className="row justify-content-center">
@@ -445,33 +445,33 @@ export default function PropertyDetails() {
                                 <div className="col-xl-5">
                                     <div className="property-gallery-card">
                                         <div className="property-gallery-card-img">
-                                            <img className="w-100" src="assets/img/property/property_inner_6.jpg" alt="img" />
+                                            <img className="w-100" src="/assets/pic/propertydetails1.jpg" alt="img" />
                                         </div>
-                                        <a className="icon-btn popup-image" href="assets/img/property/property_inner_6.jpg"><i className="fal fa-magnifying-glass-plus"></i></a>
+                                        <a className="icon-btn popup-image" href="/assets/pic/propertydetails1.jpg"><i className="fal fa-magnifying-glass-plus"></i></a>
                                     </div>
                                 </div>  
                                 <div className="col-xl-7">
                                     <div className="property-gallery-card">
                                         <div className="property-gallery-card-img">
-                                            <img className="w-100" src="assets/img/property/property_inner_7.jpg" alt="img" />
+                                            <img className="w-100" src="/assets/pic/propertydetails2.jpg" alt="img" />
                                         </div>
-                                        <a className="icon-btn popup-image" href="assets/img/property/property_inner_7.jpg"><i className="fal fa-magnifying-glass-plus"></i></a>
+                                        <a className="icon-btn popup-image" href="/assets/pic/propertydetails2.jpg"><i className="fal fa-magnifying-glass-plus"></i></a>
                                     </div>
                                 </div>
                                 <div className="col-xl-7">
                                     <div className="property-gallery-card">
                                         <div className="property-gallery-card-img">
-                                            <img className="w-100" src="assets/img/property/property_inner_8.jpg" alt="img" />
+                                            <img className="w-100" src="/assets/pic/propertydetails3.jpg" alt="img" />
                                         </div>
-                                        <a className="icon-btn popup-image" href="assets/img/property/property_inner_8.jpg"><i className="fal fa-magnifying-glass-plus"></i></a>
+                                        <a className="icon-btn popup-image" href="/assets/pic/propertydetails3.jpg"><i className="fal fa-magnifying-glass-plus"></i></a>
                                     </div>
                                 </div>
                                 <div className="col-xl-5">
                                     <div className="property-gallery-card">
                                         <div className="property-gallery-card-img">
-                                            <img className="w-100" src="assets/img/property/property_inner_9.jpg" alt="img" />
+                                            <img className="w-100" src="/assets/pic/propertydetails4.jpg" alt="img" />
                                         </div>
-                                        <a className="icon-btn popup-image" href="assets/img/property/property_inner_9.jpg"><i className="fal fa-magnifying-glass-plus"></i></a>
+                                        <a className="icon-btn popup-image" href="/assets/pic/propertydetails4.jpg"><i className="fal fa-magnifying-glass-plus"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -529,7 +529,7 @@ export default function PropertyDetails() {
                                 </div>
                                 <div className="location-map-address">
                                     <div className="thumb">
-                                        <img src="assets/img/property/property_inner_1.jpg" alt="img" />
+                                        <img src="/assets/pic/contactmap.jpg" alt="img" />
                                     </div>
                                     <div className="media-body">
                                         <h4 className="title">Address:</h4>
@@ -564,7 +564,7 @@ export default function PropertyDetails() {
                                 <div className="tab-pane fade show active" id="floor-tab1-pane" role="tabpanel" aria-labelledby="floor-tab1" tabindex="0">
                                     <div className="property-grid-plan">
                                         <div className="property-grid-thumb">
-                                            <img src="assets/img/property/property_inner_10.jpg" alt="img" />
+                                            <img src="/assets/pic/resized_image.png" alt="img" />
                                         </div>
                                         <div className="property-grid-details">
                                             <h4 className="property-grid-title">First Floor </h4>
@@ -575,7 +575,7 @@ export default function PropertyDetails() {
                                 <div className="tab-pane fade" id="floor-tab2-pane" role="tabpanel" aria-labelledby="floor-tab2" tabindex="0">
                                     <div className="property-grid-plan">
                                         <div className="property-grid-thumb">
-                                            <img src="assets/img/property/property_inner_10.jpg" alt="img" />
+                                            <img src="/assets/pic/resized_image.png" alt="img" />
                                         </div>
                                         <div className="property-grid-details">
                                             <h4 className="property-grid-title">Second Floor </h4>
@@ -586,7 +586,7 @@ export default function PropertyDetails() {
                                 <div className="tab-pane fade" id="floor-tab3-pane" role="tabpanel" aria-labelledby="floor-tab3" tabindex="0">
                                     <div className="property-grid-plan">
                                         <div className="property-grid-thumb">
-                                            <img src="assets/img/property/property_inner_10.jpg" alt="img" />
+                                            <img src="/assets/pic/resized_image.png" alt="img" />
                                         </div>
                                         <div className="property-grid-details">
                                             <h4 className="property-grid-title">Third Floor </h4>
@@ -597,7 +597,7 @@ export default function PropertyDetails() {
                                 <div className="tab-pane fade" id="floor-tab4-pane" role="tabpanel" aria-labelledby="floor-tab4" tabindex="0">
                                     <div className="property-grid-plan">
                                         <div className="property-grid-thumb">
-                                            <img src="assets/img/property/property_inner_10.jpg" alt="img" />
+                                            <img src="/assets/pic/resized_image.png" alt="img" />
                                         </div>
                                         <div className="property-grid-details">
                                             <h4 className="property-grid-title">Top Garden </h4>
@@ -608,7 +608,7 @@ export default function PropertyDetails() {
                             </div>
                             <h3 className="page-title mt-50 mb-30">Property Video</h3>
                             <div className="video-box2 mb-30">
-                                <img src="assets/img/property/property_inner_3.jpg" alt="img" />
+                                <img src="/assets/pic/propertyvideo.jpg" alt="img" />
                                 <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" className="play-btn style4 popup-video"><i className="fa-sharp fa-solid fa-play"></i></a>
                             </div>
                         </div>
@@ -638,7 +638,7 @@ export default function PropertyDetails() {
                             <div className="recent-post-wrap">
                                 <div className="recent-post">
                                     <div className="media-img">
-                                        <a href=""><img src="assets/img/blog/recent-post-1-1.jpg" alt="Blog Image" /></a>
+                                        <a href=""><img src="/assets/pic/blog5.avif" alt="Blog Image" /></a>
                                     </div>
                                     <div className="media-body">
                                         <h4 className="post-title"><a className="text-inherit" href="">Exploring The Green Spaces Of Realar Residence</a></h4>
@@ -649,7 +649,7 @@ export default function PropertyDetails() {
                                 </div>
                                 <div className="recent-post">
                                     <div className="media-img">
-                                        <a href=""><img src="assets/img/blog/recent-post-1-2.jpg" alt="Blog Image" /></a>
+                                        <a href=""><img src="/assets/pic/blog6.webp" alt="Blog Image" /></a>
                                     </div>
                                     <div className="media-body">
                                         <h4 className="post-title"><a className="text-inherit" href="">Harmony With Nature Of Realar Residence</a></h4>
@@ -660,7 +660,7 @@ export default function PropertyDetails() {
                                 </div>
                                 <div className="recent-post">
                                     <div className="media-img">
-                                        <a href=""><img src="assets/img/blog/recent-post-1-3.jpg" alt="Blog Image" /></a>
+                                        <a href=""><img src="/assets/pic/blog7.png" alt="Blog Image" /></a>
                                     </div>
                                     <div className="media-body">
                                         <h4 className="post-title"><a className="text-inherit" href="">Exploring The Green Spaces Of Realar Residence</a></h4>
@@ -672,7 +672,7 @@ export default function PropertyDetails() {
                             </div>
                         </div>
                         <div className="widget widget_banner  " 
-                        style={{ backgroundImage: `url('assets/img/widget/widget-banner.png')`,backgroundPosition:'center' }}>
+                        style={{ backgroundImage: `url('/assets/pic/blog8.webp')`,backgroundPosition:'center' }}>
                             <div className="widget-banner text-center">
                                 <h3 className="title">Need Help? We Are Here To Help You</h3>
                                 <div className="logo"><img src="assets/img/logo.svg" alt="img" /></div>

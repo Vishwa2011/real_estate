@@ -172,7 +172,7 @@ export default function Property() {
           {/* <!-- Breadcumb --> */}
           <div
             className="breadcumb-wrapper "
-            style={{ backgroundImage: `url('assets/img/bg/breadcumb-bg.jpg')`,backgroundPosition:'center' }}
+            style={{ backgroundImage: `url('assets/pic/propertymain.jpg')`,backgroundPosition:'center' }}
           >
             <div className="container">
               <div className="row justify-content-center">
@@ -281,7 +281,7 @@ export default function Property() {
                         <div className="col-md-6 col-xl-4">
                             <div className="property-card2">
                                 <div className="property-card-thumb img-shine">
-                                    <img src="assets/img/property/property-s-1-1.jpg" alt="img" />
+                                    <img src="/assets/pic/property1.jpg" alt="img" />
                                 </div>
                                 <div className="property-card-details">
                                     <div className="media-left">
@@ -299,7 +299,7 @@ export default function Property() {
                         <div className="col-md-6 col-xl-4">
                             <div className="property-card2">
                                 <div className="property-card-thumb img-shine">
-                                    <img src="assets/img/property/property-s-1-2.jpg" alt="img" />
+                                    <img src="/assets/pic/property2.jpg" alt="img" />
                                 </div>
                                 <div className="property-card-details">
                                     <div className="media-left">
@@ -317,7 +317,7 @@ export default function Property() {
                         <div className="col-md-6 col-xl-4">
                             <div className="property-card2">
                                 <div className="property-card-thumb img-shine">
-                                    <img src="assets/img/property/property-s-1-3.jpg" alt="img" />
+                                    <img src="/assets/pic/property3.jpg" alt="img" />
                                 </div>
                                 <div className="property-card-details">
                                     <div className="media-left">
@@ -335,7 +335,7 @@ export default function Property() {
                         <div className="col-md-6 col-xl-4">
                             <div className="property-card2">
                                 <div className="property-card-thumb img-shine">
-                                    <img src="assets/img/property/property-s-1-4.jpg" alt="img" />
+                                    <img src="/assets/pic/property4.jpg" alt="img" />
                                 </div>
                                 <div className="property-card-details">
                                     <div className="media-left">
@@ -353,7 +353,7 @@ export default function Property() {
                         <div className="col-md-6 col-xl-4">
                             <div className="property-card2">
                                 <div className="property-card-thumb img-shine">
-                                    <img src="assets/img/property/property-s-1-5.jpg" alt="img" />
+                                    <img src="/assets/pic/prpperty5.webp" alt="img" />
                                 </div>
                                 <div className="property-card-details">
                                     <div className="media-left">
@@ -371,7 +371,7 @@ export default function Property() {
                         <div className="col-md-6 col-xl-4">
                             <div className="property-card2">
                                 <div className="property-card-thumb img-shine">
-                                    <img src="assets/img/property/property-s-1-6.jpg" alt="img" />
+                                    <img src="/assets/pic/property6.jpg" alt="img" />
                                 </div>
                                 <div className="property-card-details">
                                     <div className="media-left">
@@ -386,7 +386,7 @@ export default function Property() {
                             </div>
                         </div>
 
-                        <div className="col-md-6 col-xl-4">
+                        {/* <div className="col-md-6 col-xl-4">
                             <div className="property-card2">
                                 <div className="property-card-thumb img-shine">
                                     <img src="assets/img/property/property-s-1-7.jpg" alt="img" />
@@ -438,7 +438,9 @@ export default function Property() {
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
+
+                        
 
                     </div>
 
@@ -446,7 +448,7 @@ export default function Property() {
                 <div className="tab-pane fade" id="tab-grid" role="tabpanel" aria-labelledby="tab-shop-grid">
                     <div className="property-card-wrap style-dark">
                         <div className="property-thumb">
-                            <img src="assets/img/property/property1-1.png" alt="img" />
+                            <img src="/assets/pic/property11.jpg" alt="img" />
                         </div>
                         <div className="property-card style-dark">
                             <div className="property-card-number">
@@ -474,7 +476,7 @@ export default function Property() {
                                 </div>
                                 <div className="property-btn-wrap">
                                     <div className="property-author-wrap">
-                                        <img src="assets/img/property/property-user-1-1.png" alt="img" />
+                                        <img src="/assets/pic/user.png" alt="img" />
                                         <a href="">Admin</a>
                                     </div>
                                     <a href="/PropertyDetails" className="th-btn style-border2 th-btn-icon">Details</a>
@@ -485,7 +487,7 @@ export default function Property() {
 
                     <div className="property-card-wrap style-dark">
                         <div className="property-thumb">
-                            <img src="assets/img/property/property1-2.png" alt="img" />
+                            <img src="/assets/pic/property12.jpg" alt="img" />
                         </div>
                         <div className="property-card style-dark">
                             <div className="property-card-number">
@@ -513,7 +515,7 @@ export default function Property() {
                                 </div>
                                 <div className="property-btn-wrap">
                                     <div className="property-author-wrap">
-                                        <img src="assets/img/property/property-user-1-2.png" alt="img" />
+                                        <img src="/assets/pic/user.png" alt="img" />
                                         <a href="">Admin</a>
                                     </div>
                                     <a href="/PropertyDetails" className="th-btn style-border2 th-btn-icon">Details</a>
@@ -524,7 +526,7 @@ export default function Property() {
 
                     <div className="property-card-wrap style-dark">
                         <div className="property-thumb">
-                            <img src="assets/img/property/property1-3.png" alt="img" />
+                            <img src="/assets/pic/property13.jpg" alt="img" />
                         </div>
                         <div className="property-card style-dark">
                             <div className="property-card-number">
@@ -552,7 +554,7 @@ export default function Property() {
                                 </div>
                                 <div className="property-btn-wrap">
                                     <div className="property-author-wrap">
-                                        <img src="assets/img/property/property-user-1-3.png" alt="img" />
+                                        <img src="/assets/pic/user.png" alt="img" />
                                         <a href="">Admin</a>
                                     </div>
                                     <a href="/PropertyDetails" className="th-btn style-border2 th-btn-icon">Details</a>
@@ -563,7 +565,7 @@ export default function Property() {
 
                     <div className="property-card-wrap style-dark">
                         <div className="property-thumb">
-                            <img src="assets/img/property/property1-4.png" alt="img" />
+                            <img src="/assets/pic/property14.jpg" alt="img" />
                         </div>
                         <div className="property-card style-dark">
                             <div className="property-card-number">
@@ -591,7 +593,7 @@ export default function Property() {
                                 </div>
                                 <div className="property-btn-wrap">
                                     <div className="property-author-wrap">
-                                        <img src="assets/img/property/property-user-1-4.png" alt="img" />
+                                        <img src="/assets/pic/user.png" alt="img" />
                                         <a href="">Admin</a>
                                     </div>
                                     <a href="/PropertyDetails" className="th-btn style-border2 th-btn-icon">Details</a>
