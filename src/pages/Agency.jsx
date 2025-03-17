@@ -193,7 +193,7 @@ export default function Agency() {
  {/* <!-- Breadcumb --> */}
  <div
         className="breadcumb-wrapper "
-        style={{ backgroundImage: `url('assets/img/bg/breadcumb-bg.jpg')`,backgroundPosition:'center' }}
+        style={{ backgroundImage: `url('/assets/pic/agencymain.jpg')`,backgroundPosition:'center',backgroundRepeat:'no-repeat' }}
       >
         <div className="container">
           <div className="row justify-content-center">
@@ -248,7 +248,7 @@ export default function Agency() {
                                 <div className="col-md-6">
                                     <div className="agency-card">
                                         <div className="agency-card-img">
-                                            <img src="assets/img/agency/1-1.png" alt="img" />
+                                            <img src="/assets/pic/agency1.jpg" alt="img" />
                                             <div className="agency-card-brand">
                                                 <img src="assets/img/brand/brand_1_1.svg" alt="" />
                                             </div>
@@ -272,7 +272,7 @@ export default function Agency() {
                                 <div className="col-md-6">
                                     <div className="agency-card">
                                         <div className="agency-card-img">
-                                            <img src="assets/img/agency/1-2.png" alt="img" />
+                                            <img src="/assets/pic/agency2.jpg" alt="img" />
                                             <div className="agency-card-brand">
                                                 <img src="assets/img/brand/brand_1_2.svg" alt="" />
                                             </div>
@@ -296,7 +296,7 @@ export default function Agency() {
                                 <div className="col-md-6">
                                     <div className="agency-card">
                                         <div className="agency-card-img">
-                                            <img src="assets/img/agency/1-3.png" alt="img" />
+                                            <img src="/assets/pic/agency3.jpg" alt="img" />
                                             <div className="agency-card-brand">
                                                 <img src="assets/img/brand/brand_1_3.svg" alt="" />
                                             </div>
@@ -320,7 +320,7 @@ export default function Agency() {
                                 <div className="col-md-6">
                                     <div className="agency-card">
                                         <div className="agency-card-img">
-                                            <img src="assets/img/agency/1-4.png" alt="img" />
+                                            <img src="/assets/pic/agency4.jpg" alt="img" />
                                             <div className="agency-card-brand">
                                                 <img src="assets/img/brand/brand_1_4.svg" alt="" />
                                             </div>
@@ -344,7 +344,7 @@ export default function Agency() {
                                 <div className="col-md-6">
                                     <div className="agency-card">
                                         <div className="agency-card-img">
-                                            <img src="assets/img/agency/1-5.png" alt="img" />
+                                            <img src="/assets/pic/agency5.jpg" alt="img" />
                                             <div className="agency-card-brand">
                                                 <img src="assets/img/brand/brand_1_5.svg" alt="" />
                                             </div>
@@ -368,7 +368,7 @@ export default function Agency() {
                                 <div className="col-md-6">
                                     <div className="agency-card">
                                         <div className="agency-card-img">
-                                            <img src="assets/img/agency/1-6.png" alt="img" />
+                                            <img src="/assets/pic/agency6.jpg" alt="img" />
                                             <div className="agency-card-brand">
                                                 <img src="assets/img/brand/brand_1_6.svg" alt="" />
                                             </div>
@@ -407,7 +407,7 @@ export default function Agency() {
                                 <div className="">
                                     <div className="agency-card style-flex">
                                         <div className="agency-card-img">
-                                            <img src="assets/img/agency/1-1.png" alt="img" />
+                                            <img src="/assets/pic/agency1.jpg" alt="img" />
                                             <div className="agency-card-brand">
                                                 <img src="assets/img/brand/brand_1_1.svg" alt="" />
                                             </div>
@@ -431,7 +431,7 @@ export default function Agency() {
                                 <div className="">
                                     <div className="agency-card style-flex">
                                         <div className="agency-card-img">
-                                            <img src="assets/img/agency/1-2.png" alt="img" />
+                                            <img src="/assets/pic/agency2.jpg" alt="img" />
                                             <div className="agency-card-brand">
                                                 <img src="assets/img/brand/brand_1_2.svg" alt="" />
                                             </div>
@@ -455,7 +455,7 @@ export default function Agency() {
                                 <div className="">
                                     <div className="agency-card style-flex">
                                         <div className="agency-card-img">
-                                            <img src="assets/img/agency/1-3.png" alt="img" />
+                                            <img src="/assets/pic/agency3.jpg" alt="img" />
                                             <div className="agency-card-brand">
                                                 <img src="assets/img/brand/brand_1_3.svg" alt="" />
                                             </div>
@@ -479,7 +479,7 @@ export default function Agency() {
                                 <div className="">
                                     <div className="agency-card style-flex">
                                         <div className="agency-card-img">
-                                            <img src="assets/img/agency/1-4.png" alt="img" />
+                                            <img src="/assets/pic/agency4.jpg" alt="img" />
                                             <div className="agency-card-brand">
                                                 <img src="assets/img/brand/brand_1_4.svg" alt="" />
                                             </div>
@@ -529,7 +529,7 @@ export default function Agency() {
                             <div className="recent-post-wrap">
                                 <div className="recent-post">
                                     <div className="media-img">
-                                        <a href=""><img src="assets/img/blog/recent-post-1-1.jpg" alt="Blog Image" /></a>
+                                        <a href=""><img src="/assets/pic/blog5.avif" alt="Blog Image" /></a>
                                     </div>
                                     <div className="media-body">
                                         <h4 className="post-title"><a className="text-inherit" href="">Exploring The Green Spaces Of Realar Residence</a></h4>
@@ -540,7 +540,7 @@ export default function Agency() {
                                 </div>
                                 <div className="recent-post">
                                     <div className="media-img">
-                                        <a href=""><img src="assets/img/blog/recent-post-1-2.jpg" alt="Blog Image" /></a>
+                                        <a href=""><img src="/assets/pic/blog6.webp" alt="Blog Image" /></a>
                                     </div>
                                     <div className="media-body">
                                         <h4 className="post-title"><a className="text-inherit" href="">Harmony With Nature Of Realar Residence</a></h4>
@@ -551,7 +551,7 @@ export default function Agency() {
                                 </div>
                                 <div className="recent-post">
                                     <div className="media-img">
-                                        <a href=""><img src="assets/img/blog/recent-post-1-3.jpg" alt="Blog Image" /></a>
+                                        <a href=""><img src="/assets/pic/blog7.png" alt="Blog Image" /></a>
                                     </div>
                                     <div className="media-body">
                                         <h4 className="post-title"><a className="text-inherit" href="">Exploring The Green Spaces Of Realar Residence</a></h4>
@@ -599,7 +599,7 @@ export default function Agency() {
                                 <a href="">Sale</a>
                             </div>
                         </div>
-                        <div className="widget widget_banner  "style={{ backgroundImage: `url('assets/img/widget/widget-banner.png')`,backgroundPosition:'center' }}>
+                        <div className="widget widget_banner  "style={{ backgroundImage: `url('assets/pic/blog8.webp')`,backgroundPosition:'center' }}>
                             <div className="widget-banner text-center">
                                 <h3 className="title">Need Help? We Are Here To Help You</h3>
                                 <div className="logo"><img src="assets/img/logo.svg" alt="img" /></div>

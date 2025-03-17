@@ -193,7 +193,7 @@ export default function AgencyDetails() {
  {/* <!-- Breadcumb --> */}
  <div
         className="breadcumb-wrapper "
-        style={{ backgroundImage: `url('assets/img/bg/breadcumb-bg.jpg')`,backgroundPosition:'center' }}
+        style={{ backgroundImage: `url('/assets/pic/agencydetailsmain.jpg')`,backgroundPosition:'center' }}
       >
         <div className="container">
           <div className="row justify-content-center">
@@ -222,7 +222,7 @@ export default function AgencyDetails() {
                         <div className="page-content">
                             <div className="agency-page-img">
                                 <div className="thumb">
-                                    <img src="assets/img/agency/agency_inner_1.jpg" alt="Blog Image" />
+                                    <img src="/assets/pic/agencydetails2.jpg" alt="Blog Image" />
                                 </div>
                                 <div className="agency-card-brand">
                                     <img src="assets/img/brand/brand_1_2.svg" alt="img" />
@@ -250,7 +250,7 @@ export default function AgencyDetails() {
                                 </div>
                                 <div className="location-map-address">
                                     <div className="thumb">
-                                        <img src="assets/img/property/property_inner_1.jpg" alt="img" />
+                                        <img src="/assets/pic/contactmap.jpg" alt="img" />
                                     </div>
                                     <div className="media-body">
                                         <h4 className="title">Address:</h4>
@@ -286,7 +286,7 @@ export default function AgencyDetails() {
                                                 <div className="swiper-slide">
                                                     <div className="property-card2">
                                                         <div className="property-card-thumb img-shine">
-                                                            <img src="assets/img/property/property-s-1-1.jpg" alt="img" />
+                                                            <img src="/assets/pic/agency1.jpg" alt="img" />
                                                         </div>
                                                         <div className="property-card-details">
                                                             <div className="media-left">
@@ -303,7 +303,7 @@ export default function AgencyDetails() {
                                                 <div className="swiper-slide">
                                                     <div className="property-card2">
                                                         <div className="property-card-thumb img-shine">
-                                                            <img src="assets/img/property/property-s-1-2.jpg" alt="img" />
+                                                            <img src="/assets/pic/agency5.jpg" alt="img" />
                                                         </div>
                                                         <div className="property-card-details">
                                                             <div className="media-left">
@@ -320,13 +320,13 @@ export default function AgencyDetails() {
                                                 <div className="swiper-slide">
                                                     <div className="property-card2">
                                                         <div className="property-card-thumb img-shine">
-                                                            <img src="assets/img/property/property-s-1-1.jpg" alt="img" />
+                                                            <img src="/assets/pic/agency2.jpg" alt="img" />
                                                         </div>
                                                         <div className="property-card-details">
                                                             <div className="media-left">
-                                                                <h4 className="property-card-title"><a href="">Toronto Townhouse</a></h4>
+                                                                <h4 className="property-card-title"><a href="">House in Broklyn</a></h4>
                                                                 <h5 className="property-card-price">$ 1500.00 USD/night</h5>
-                                                                <p className="property-card-location">2715 Ash, South Dakota 83475</p>
+                                                                <p className="property-card-location">4321 Maple Drive, Autumnville, FL 98765</p>
                                                             </div>
                                                             <div className="btn-wrap">
                                                                 <a href="" className="th-btn style-border2 th-btn-icon">Details</a>
@@ -337,13 +337,13 @@ export default function AgencyDetails() {
                                                 <div className="swiper-slide">
                                                     <div className="property-card2">
                                                         <div className="property-card-thumb img-shine">
-                                                            <img src="assets/img/property/property-s-1-2.jpg" alt="img" />
+                                                            <img src="/assets/pic/agency3.jpg" alt="img" />
                                                         </div>
                                                         <div className="property-card-details">
                                                             <div className="media-left">
-                                                                <h4 className="property-card-title"><a href="">Serenity Villa</a></h4>
+                                                                <h4 className="property-card-title"><a href="">House in Brickhall</a></h4>
                                                                 <h5 className="property-card-price">$ 1500.00 USD/night</h5>
-                                                                <p className="property-card-location">2715 Ash, South Dakota 83475</p>
+                                                                <p className="property-card-location">8023 Willow Lane, Whispering Pines, GA 97531</p>
                                                             </div>
                                                             <div className="btn-wrap">
                                                                 <a href="" className="th-btn style-border2 th-btn-icon">Details</a>
@@ -362,7 +362,41 @@ export default function AgencyDetails() {
                                                 <div className="swiper-slide">
                                                     <div className="property-card2">
                                                         <div className="property-card-thumb img-shine">
-                                                            <img src="assets/img/property/property-s-1-1.jpg" alt="img" />
+                                                            <img src="/assets/pic/agency6.jpg" alt="img" />
+                                                        </div>
+                                                        <div className="property-card-details">
+                                                            <div className="media-left">
+                                                                <h4 className="property-card-title"><a href="">Emma House</a></h4>
+                                                                <h5 className="property-card-price">$ 1500.00 USD/night</h5>
+                                                                <p className="property-card-location">8642 Magnolia Drive, Sunsetville, OR 75319</p>
+                                                            </div>
+                                                            <div className="btn-wrap">
+                                                                <a href="" className="th-btn style-border2 th-btn-icon">Details</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div className="swiper-slide">
+                                                    <div className="property-card2">
+                                                        <div className="property-card-thumb img-shine">
+                                                            <img src="/assets/pic/agency4.jpg" alt="img" />
+                                                        </div>
+                                                        <div className="property-card-details">
+                                                            <div className="media-left">
+                                                                <h4 className="property-card-title"><a href="">Town House</a></h4>
+                                                                <h5 className="property-card-price">$ 1500.00 USD/night</h5>
+                                                                <p className="property-card-location">8642 Magnolia Drive, Sunsetville, OR 75319</p>
+                                                            </div>
+                                                            <div className="btn-wrap">
+                                                                <a href="" className="th-btn style-border2 th-btn-icon">Details</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div className="swiper-slide">
+                                                    <div className="property-card2">
+                                                        <div className="property-card-thumb img-shine">
+                                                            <img src="/assets/pic/agency3.jpg" alt="img" />
                                                         </div>
                                                         <div className="property-card-details">
                                                             <div className="media-left">
@@ -379,41 +413,7 @@ export default function AgencyDetails() {
                                                 <div className="swiper-slide">
                                                     <div className="property-card2">
                                                         <div className="property-card-thumb img-shine">
-                                                            <img src="assets/img/property/property-s-1-2.jpg" alt="img" />
-                                                        </div>
-                                                        <div className="property-card-details">
-                                                            <div className="media-left">
-                                                                <h4 className="property-card-title"><a href="">Serenity Villa</a></h4>
-                                                                <h5 className="property-card-price">$ 1500.00 USD/night</h5>
-                                                                <p className="property-card-location">2715 Ash, South Dakota 83475</p>
-                                                            </div>
-                                                            <div className="btn-wrap">
-                                                                <a href="" className="th-btn style-border2 th-btn-icon">Details</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div className="swiper-slide">
-                                                    <div className="property-card2">
-                                                        <div className="property-card-thumb img-shine">
-                                                            <img src="assets/img/property/property-s-1-1.jpg" alt="img" />
-                                                        </div>
-                                                        <div className="property-card-details">
-                                                            <div className="media-left">
-                                                                <h4 className="property-card-title"><a href="">Toronto Townhouse</a></h4>
-                                                                <h5 className="property-card-price">$ 1500.00 USD/night</h5>
-                                                                <p className="property-card-location">2715 Ash, South Dakota 83475</p>
-                                                            </div>
-                                                            <div className="btn-wrap">
-                                                                <a href="" className="th-btn style-border2 th-btn-icon">Details</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div className="swiper-slide">
-                                                    <div className="property-card2">
-                                                        <div className="property-card-thumb img-shine">
-                                                            <img src="assets/img/property/property-s-1-2.jpg" alt="img" />
+                                                            <img src="/assets/pic/agency5.jpg" alt="img" />
                                                         </div>
                                                         <div className="property-card-details">
                                                             <div className="media-left">
@@ -452,7 +452,7 @@ export default function AgencyDetails() {
                                             <div className="th-team team-card style4">
                                                 <div className="img-wrap">
                                                     <div className="team-img">
-                                                        <img src="assets/img/team/team_2_1.png" alt="Team" />
+                                                        <img src="/assets/pic/team1.jpg" alt="Team" />
                                                     </div>
                                                     <div className="th-social-wrap">
                                                         <div className="th-social">
@@ -480,7 +480,7 @@ export default function AgencyDetails() {
                                             <div className="th-team team-card style4">
                                                 <div className="img-wrap">
                                                     <div className="team-img">
-                                                        <img src="assets/img/team/team_2_2.png" alt="Team" />
+                                                        <img src="/assets/pic/team2.jpg" alt="Team" />
                                                     </div>
                                                     <div className="th-social-wrap">
                                                         <div className="th-social">
@@ -491,7 +491,7 @@ export default function AgencyDetails() {
                                                             <a target="_blank" href="https://instagram.com/"><i className="fab fa-instagram"></i></a>
                                                         </div>
                                                         <a className="icon-btn" href=""><img src="assets/img/icon/arrow-right.svg" alt="img" /></a>
-                                                    </div>
+                                                    </div> 
                                                 </div>
                                                 <div className="team-card-content">
                                                     <div className="media-left">
@@ -508,7 +508,7 @@ export default function AgencyDetails() {
                                             <div className="th-team team-card style4">
                                                 <div className="img-wrap">
                                                     <div className="team-img">
-                                                        <img src="assets/img/team/team_2_3.png" alt="Team" />
+                                                        <img src="/assets/pic/team3.jpg" alt="Team" />
                                                     </div>
                                                     <div className="th-social-wrap">
                                                         <div className="th-social">
@@ -536,7 +536,7 @@ export default function AgencyDetails() {
                                             <div className="th-team team-card style4">
                                                 <div className="img-wrap">
                                                     <div className="team-img">
-                                                        <img src="assets/img/team/team_2_4.png" alt="Team" />
+                                                        <img src="/assets/pic/team4.jpg" alt="Team" />
                                                     </div>
                                                     <div className="th-social-wrap">
                                                         <div className="th-social">
@@ -559,117 +559,7 @@ export default function AgencyDetails() {
                                             </div>
                                         </div>
 
-                                        {/* <!-- Single Item --> */}
-                                        <div className="swiper-slide">
-                                            <div className="th-team team-card style4">
-                                                <div className="img-wrap">
-                                                    <div className="team-img">
-                                                        <img src="assets/img/team/team_2_1.png" alt="Team" />
-                                                    </div>
-                                                    <div className="th-social-wrap">
-                                                        <div className="th-social">
-                                                            <a target="_blank" href="https://facebook.com/"><i className="fab fa-facebook-f"></i></a>
-                                                            <a target="_blank" href="https://twitter.com/"><i className="fab fa-twitter"></i></a>
-                                                            <a target="_blank" href="https://linkedin.com/"><i className="fab fa-linkedin-in"></i></a>
-                                                            <a target="_blank" href="https://youtube.com/"><i className="fab fa-youtube"></i></a>
-                                                            <a target="_blank" href="https://instagram.com/"><i className="fab fa-instagram"></i></a>
-                                                        </div>
-                                                        <a className="icon-btn" href=""><img src="assets/img/icon/arrow-right.svg" alt="img" /></a>
-                                                    </div>
-                                                </div>
-                                                <div className="team-card-content">
-                                                    <div className="media-left">
-                                                        <h3 className="box-title"><a href="">Janny Wilson</a></h3>
-                                                        <span className="team-desig">Property Expert</span>
-                                                    </div>
-                                                    <a className="icon-btn" href="tel:09876543210"><img src="assets/img/icon/phone.svg" alt="img" /></a>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        {/* <!-- Single Item --> */}
-                                        <div className="swiper-slide">
-                                            <div className="th-team team-card style4">
-                                                <div className="img-wrap">
-                                                    <div className="team-img">
-                                                        <img src="assets/img/team/team_2_2.png" alt="Team" />
-                                                    </div>
-                                                    <div className="th-social-wrap">
-                                                        <div className="th-social">
-                                                            <a target="_blank" href="https://facebook.com/"><i className="fab fa-facebook-f"></i></a>
-                                                            <a target="_blank" href="https://twitter.com/"><i className="fab fa-twitter"></i></a>
-                                                            <a target="_blank" href="https://linkedin.com/"><i className="fab fa-linkedin-in"></i></a>
-                                                            <a target="_blank" href="https://youtube.com/"><i className="fab fa-youtube"></i></a>
-                                                            <a target="_blank" href="https://instagram.com/"><i className="fab fa-instagram"></i></a>
-                                                        </div>
-                                                        <a className="icon-btn" href=""><img src="assets/img/icon/arrow-right.svg" alt="img" /></a>
-                                                    </div>
-                                                </div>
-                                                <div className="team-card-content">
-                                                    <div className="media-left">
-                                                        <h3 className="box-title"><a href="">Andrew Richard</a></h3>
-                                                        <span className="team-desig">Property Expert</span>
-                                                    </div>
-                                                    <a className="icon-btn" href="tel:09876543210"><img src="assets/img/icon/phone.svg" alt="img" /></a>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        {/* <!-- Single Item --> */}
-                                        <div className="swiper-slide">
-                                            <div className="th-team team-card style4">
-                                                <div className="img-wrap">
-                                                    <div className="team-img">
-                                                        <img src="assets/img/team/team_2_3.png" alt="Team" />
-                                                    </div>
-                                                    <div className="th-social-wrap">
-                                                        <div className="th-social">
-                                                            <a target="_blank" href="https://facebook.com/"><i className="fab fa-facebook-f"></i></a>
-                                                            <a target="_blank" href="https://twitter.com/"><i className="fab fa-twitter"></i></a>
-                                                            <a target="_blank" href="https://linkedin.com/"><i className="fab fa-linkedin-in"></i></a>
-                                                            <a target="_blank" href="https://youtube.com/"><i className="fab fa-youtube"></i></a>
-                                                            <a target="_blank" href="https://instagram.com/"><i className="fab fa-instagram"></i></a>
-                                                        </div>
-                                                        <a className="icon-btn" href=""><img src="assets/img/icon/arrow-right.svg" alt="img" /></a>
-                                                    </div>
-                                                </div>
-                                                <div className="team-card-content">
-                                                    <div className="media-left">
-                                                        <h3 className="box-title"><a href="">Zarin Wilson</a></h3>
-                                                        <span className="team-desig">Property Expert</span>
-                                                    </div>
-                                                    <a className="icon-btn" href="tel:09876543210"><img src="assets/img/icon/phone.svg" alt="img" /></a>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        {/* <!-- Single Item --> */}
-                                        <div className="swiper-slide">
-                                            <div className="th-team team-card style4">
-                                                <div className="img-wrap">
-                                                    <div className="team-img">
-                                                        <img src="assets/img/team/team_2_4.png" alt="Team" />
-                                                    </div>
-                                                    <div className="th-social-wrap">
-                                                        <div className="th-social">
-                                                            <a target="_blank" href="https://facebook.com/"><i className="fab fa-facebook-f"></i></a>
-                                                            <a target="_blank" href="https://twitter.com/"><i className="fab fa-twitter"></i></a>
-                                                            <a target="_blank" href="https://linkedin.com/"><i className="fab fa-linkedin-in"></i></a>
-                                                            <a target="_blank" href="https://youtube.com/"><i className="fab fa-youtube"></i></a>
-                                                            <a target="_blank" href="https://instagram.com/"><i className="fab fa-instagram"></i></a>
-                                                        </div>
-                                                        <a className="icon-btn" href=""><img src="assets/img/icon/arrow-right.svg" alt="img" /></a>
-                                                    </div>
-                                                </div>
-                                                <div className="team-card-content">
-                                                    <div className="media-left">
-                                                        <h3 className="box-title"><a href="">Michel Smith</a></h3>
-                                                        <span className="team-desig">Property Expert</span>
-                                                    </div>
-                                                    <a className="icon-btn" href="tel:09876543210"><img src="assets/img/icon/phone.svg" alt="img" /></a>
-                                                </div>
-                                            </div>
-                                        </div>
+                                      
 
                                     </div>
                                 </div>
@@ -690,7 +580,7 @@ export default function AgencyDetails() {
                             <div className="recent-post-wrap">
                                 <div className="recent-post">
                                     <div className="media-img">
-                                        <a href=""><img src="assets/img/blog/recent-post-1-1.jpg" alt="Blog Image" /></a>
+                                        <a href=""><img src="/assets/pic/blog5.avif" alt="Blog Image" /></a>
                                     </div>
                                     <div className="media-body">
                                         <h4 className="post-title"><a className="text-inherit" href="">Exploring The Green Spaces Of Realar Residence</a></h4>
@@ -701,7 +591,7 @@ export default function AgencyDetails() {
                                 </div>
                                 <div className="recent-post">
                                     <div className="media-img">
-                                        <a href=""><img src="assets/img/blog/recent-post-1-2.jpg" alt="Blog Image" /></a>
+                                        <a href=""><img src="/assets/pic/blog6.webp" alt="Blog Image" /></a>
                                     </div>
                                     <div className="media-body">
                                         <h4 className="post-title"><a className="text-inherit" href="">Harmony With Nature Of Realar Residence</a></h4>
@@ -712,7 +602,7 @@ export default function AgencyDetails() {
                                 </div>
                                 <div className="recent-post">
                                     <div className="media-img">
-                                        <a href=""><img src="assets/img/blog/recent-post-1-3.jpg" alt="Blog Image" /></a>
+                                        <a href=""><img src="/assets/pic/blog7.png" alt="Blog Image" /></a>
                                     </div>
                                     <div className="media-body">
                                         <h4 className="post-title"><a className="text-inherit" href="">Exploring The Green Spaces Of Realar Residence</a></h4>
@@ -761,7 +651,7 @@ export default function AgencyDetails() {
                             </div>
                         </div>
                         <div className="widget widget_banner  " 
-                        style={{ backgroundImage: `url('assets/img/widget/widget-banner.png')` }}>
+                        style={{ backgroundImage: `url('assets/pic/blog8.webp')` }}>
                             <div className="widget-banner text-center">
                                 <h3 className="title">Need Help? We Are Here To Help You</h3>
                                 <div className="logo"><img src="assets/img/logo.svg" alt="img" /></div>

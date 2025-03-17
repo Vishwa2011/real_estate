@@ -201,7 +201,7 @@ export default function Faq() {
       {/* <!-- Breadcumb --> */}
       <div
         className="breadcumb-wrapper "
-        style={{ backgroundImage: `url('')` }}
+        style={{ backgroundImage: `url('/assets/pic/faqmain.webp')`,backgroundPosition:'center' }}
       >
         <div className="container">
           <div className="row justify-content-center">
