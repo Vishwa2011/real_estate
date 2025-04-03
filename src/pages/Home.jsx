@@ -534,7 +534,7 @@ export default function Home() {
                     maskPosition: "center",
                   }}
                 >
-                  <img src="assets/img/normal/about_1_1.png" alt="About" />
+                  <img src="/assets/pic/open2.2 (1).webp" alt="About" />
                 </div>
               </div>
             </div>
@@ -554,7 +554,7 @@ export default function Home() {
                     maskPosition: "center",
                   }}
                 >
-                  <img src="assets/img/normal/about_1_2.png" alt="About" />
+                  <img src="/assets/pic/open2.3.webp" alt="About" />
                 </div>
               </div>
             </div>
