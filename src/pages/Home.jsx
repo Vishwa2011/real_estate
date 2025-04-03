@@ -1132,7 +1132,7 @@ export default function Home() {
             </div>
             <div className="col-auto">
               <div className="sec-btn">
-                <a href="" className="th-btn btn-mask th-btn-icon">
+                <a href="/Property" className="th-btn btn-mask th-btn-icon">
                   All Properties
                 </a>
               </div>
