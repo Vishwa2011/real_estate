@@ -1154,7 +1154,7 @@ export default function Home() {
                 maskPosition: "center",
               }}
             >
-              <img src="assets/img/property/property1-1.png" alt="img" />
+              <img src="/assets/pic/villahome.jpg" alt="img" />
             </div>
 
             <div className="property-card">
@@ -1195,7 +1195,7 @@ export default function Home() {
                 <div className="property-btn-wrap">
                   <div className="property-author-wrap">
                     <img
-                      src="assets/img/property/property-user-1-1.png"
+                      src="/assets/pic/avatar1.jpg"
                       alt="img"
                     />
                     <a href="">Admin</a>
@@ -1224,7 +1224,7 @@ export default function Home() {
                 maskPosition: "center",
               }}
             >
-              <img src="assets/img/property/property1-1.png" alt="img" />
+              <img src="/assets/pic/villahome2.jpg" alt="img" />
             </div>
 
             <div className="property-card">
@@ -1265,7 +1265,7 @@ export default function Home() {
                 <div className="property-btn-wrap">
                   <div className="property-author-wrap">
                     <img
-                      src="assets/img/property/property-user-1-2.png"
+                      src="/assets/pic/avatar1.jpg"
                       alt="img"
                     />
                     <a href="">Admin</a>
@@ -1294,7 +1294,7 @@ export default function Home() {
                 maskPosition: "center",
               }}
             >
-              <img src="assets/img/property/property1-1.png" alt="img" />
+              <img src="/assets/pic/villahome3.jpeg" alt="img" />
             </div>
 
             <div className="property-card">
@@ -1335,7 +1335,7 @@ export default function Home() {
                 <div className="property-btn-wrap">
                   <div className="property-author-wrap">
                     <img
-                      src="assets/img/property/property-user-1-3.png"
+                      src="/assets/pic/avatar1.jpg"
                       alt="img"
                     />
                     <a href="">Admin</a>
@@ -1364,7 +1364,7 @@ export default function Home() {
                 maskPosition: "center",
               }}
             >
-              <img src="assets/img/property/property1-1.png" alt="img" />
+              <img src="/assets/pic/villahome4.jpg" alt="img" />
             </div>
 
             <div className="property-card">
@@ -1405,7 +1405,7 @@ export default function Home() {
                 <div className="property-btn-wrap">
                   <div className="property-author-wrap">
                     <img
-                      src="assets/img/property/property-user-1-4.png"
+                      src="/assets/pic/avatar1.jpg"
                       alt="img"
                     />
                     <a href="">Admin</a>
@@ -1461,7 +1461,7 @@ export default function Home() {
                 >
                   <div className="aminities-card-img">
                     <img
-                      src="assets/img/aminities/aminities1-1.png"
+                      src="/assets/pic/Car1.jpg"
                       alt="aminities image"
                     />
                   </div>
@@ -1496,7 +1496,7 @@ export default function Home() {
                 >
                   <div className="aminities-card-img">
                     <img
-                      src="assets/img/aminities/aminities1-2.png"
+                      src="/assets/pic/fitness.jpg"
                       alt="aminities image"
                     />
                   </div>
@@ -1531,7 +1531,7 @@ export default function Home() {
                 >
                   <div className="aminities-card-img">
                     <img
-                      src="assets/img/aminities/aminities1-3.png"
+                      src="/assets/pic/rooftop.jpg"
                       alt="aminities image"
                     />
                   </div>
@@ -1566,7 +1566,7 @@ export default function Home() {
                 >
                   <div className="aminities-card-img">
                     <img
-                      src="assets/img/aminities/aminities1-4.png"
+                      src="/assets/pic/swimming-pool.jpg"
                       alt="aminities image"
                     />
                   </div>
@@ -1601,7 +1601,7 @@ export default function Home() {
                 >
                   <div className="aminities-card-img">
                     <img
-                      src="assets/img/aminities/aminities1-5.png"
+                      src="/assets/pic/pet.jpg"
                       alt="aminities image"
                     />
                   </div>
@@ -1636,7 +1636,7 @@ export default function Home() {
                 >
                   <div className="aminities-card-img">
                     <img
-                      src="assets/img/aminities/aminities1-6.png"
+                      src="/assets/pic/garden.jpg"
                       alt="aminities image"
                     />
                   </div>
@@ -1671,7 +1671,7 @@ export default function Home() {
                 >
                   <div className="aminities-card-img">
                     <img
-                      src="assets/img/aminities/aminities1-1.png"
+                      src="/assets/pic/Car1.jpg"
                       alt="aminities image"
                     />
                   </div>
@@ -1706,7 +1706,7 @@ export default function Home() {
                 >
                   <div className="aminities-card-img">
                     <img
-                      src="assets/img/aminities/aminities1-2.png"
+                      src="/assets/pic/fitness.jpg"
                       alt="aminities image"
                     />
                   </div>
@@ -1741,7 +1741,7 @@ export default function Home() {
                 >
                   <div className="aminities-card-img">
                     <img
-                      src="assets/img/aminities/aminities1-3.png"
+                      src="/assets/pic/rooftop.jpg"
                       alt="aminities image"
                     />
                   </div>
@@ -1776,7 +1776,7 @@ export default function Home() {
                 >
                   <div className="aminities-card-img">
                     <img
-                      src="assets/img/aminities/aminities1-4.png"
+                      src="/assets/pic/swimming-pool.jpg"
                       alt="aminities image"
                     />
                   </div>
@@ -1811,7 +1811,7 @@ export default function Home() {
                 >
                   <div className="aminities-card-img">
                     <img
-                      src="assets/img/aminities/aminities1-5.png"
+                      src="/assets/pic/pet.jpg"
                       alt="aminities image"
                     />
                   </div>
@@ -1846,7 +1846,7 @@ export default function Home() {
                 >
                   <div className="aminities-card-img">
                     <img
-                      src="assets/img/aminities/aminities1-6.png"
+                      src="/assets/pic/garden.jpg"
                       alt="aminities image"
                     />
                   </div>
@@ -1884,7 +1884,7 @@ export default function Home() {
         <div className="video-area-1 ">
           <div className="video-wrap1">
             <div className="video-box1">
-              <img src="assets/img/normal/video_1_1.png" alt="img" />
+              <img src="/assets/pic/hovering-staircase.jpg" alt="img" />
               <a
                 href="https://www.youtube.com/watch?v=_sI_Ps7JSEk"
                 className="play-btn style3 popup-video"
@@ -1912,7 +1912,7 @@ export default function Home() {
               <div className="author-grid">
                 <div className="author-profile">
                   <div className="avater">
-                    <img src="assets/img/normal/author_1_1.png" alt="img" />
+                    <img src="/assets/pic/male.jpg" alt="img" />
                   </div>
                   <div className="media-body">
                     <h5 className="author-profile-name"> Basila Smith </h5>
@@ -1920,7 +1920,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="author-sign">
-                  <img src="assets/img/normal/sign_1_1.png" alt="img" />
+                  <img src="/assets/pic/sign.png" alt="img" />
                 </div>
               </div>
             </div>
@@ -2355,10 +2355,10 @@ export default function Home() {
                   </p>
                 </div>
                 <div className="btn-wrap">
-                  <a href="" className="th-btn btn-mask th-btn-icon">
+                  <a href="/Contact" className="th-btn btn-mask th-btn-icon">
                     Get Started
                   </a>
-                  <a href="" className="th-btn btn-mask2 th-btn-icon">
+                  <a href="Contact" className="th-btn btn-mask2 th-btn-icon">
                     Contact Us
                   </a>
                 </div>
