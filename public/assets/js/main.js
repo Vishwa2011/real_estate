@@ -361,16 +361,24 @@
             var $line = $('<span class="indicator"></span>').appendTo($container);
     
             var sliderSelector = $container.data("slider-tab");
+            if (!sliderSelector) return;
+    
             var $slider = $(sliderSelector);
+            if (!$slider.length) return;
     
             var swiper = $slider[0].swiper;
+            if (!swiper) {
+                console.warn("Swiper instance not found for", sliderSelector);
+                return;
+            }
     
+            // Thumb click handler
             $thumbs.on("click", function (e) {
                 e.preventDefault();
                 var clickedThumb = $(this);
     
                 clickedThumb.addClass("active").siblings().removeClass("active");
-                linePos(clickedThumb, $container);
+                updateIndicator(clickedThumb);
     
                 if (opt.sliderTab) {
                     var slideIndex = clickedThumb.index();
@@ -378,41 +386,50 @@
                 }
             });
     
+            // Sync on slide change
             if (opt.sliderTab) {
                 swiper.on("slideChange", function () {
                     var activeIndex = swiper.realIndex;
                     var $activeThumb = $thumbs.eq(activeIndex);
     
                     $activeThumb.addClass("active").siblings().removeClass("active");
-                    linePos($activeThumb, $container);
+                    updateIndicator($activeThumb);
                 });
     
-                var initialSlideIndex = swiper.activeIndex;
-                var $initialThumb = $thumbs.eq(initialSlideIndex);
+                // Initial setup
+                var initialIndex = swiper.realIndex;
+                var $initialThumb = $thumbs.eq(initialIndex);
                 $initialThumb.addClass("active").siblings().removeClass("active");
-                linePos($initialThumb, $container);
+                updateIndicator($initialThumb);
             }
     
-            function linePos($activeThumb) {
-                var thumbOffset = $activeThumb.position();
+            // Update line position under active tab
+            function updateIndicator($activeThumb) {
+                var offset = $activeThumb.position();
     
-                var marginTop = parseInt($activeThumb.css('margin-top')) || 0;
-                var marginLeft = parseInt($activeThumb.css('margin-left')) || 0;
+                var marginTop = parseInt($activeThumb.css("margin-top")) || 0;
+                var marginLeft = parseInt($activeThumb.css("margin-left")) || 0;
     
-                $line.css("--height-set", $activeThumb.outerHeight() + "px");
-                $line.css("--width-set", $activeThumb.outerWidth() + "px");
-                $line.css("--pos-y", thumbOffset.top + marginTop + "px");
-                $line.css("--pos-x", thumbOffset.left + marginLeft + "px");
+                $line.css({
+                    "--height-set": $activeThumb.outerHeight() + "px",
+                    "--width-set": $activeThumb.outerWidth() + "px",
+                    "--pos-y": offset.top + marginTop + "px",
+                    "--pos-x": offset.left + marginLeft + "px",
+                });
             }
         });
     };
     
-    if ($(".project-number-pagination").length) {
-        $(".project-number-pagination").activateSliderThumbs({
-            sliderTab: true,
-            tabButton: ".tab-btn",
-        });
-    }  
+    // Initialize if element exists
+    $(document).ready(function () {
+        if ($(".project-number-pagination").length) {
+            $(".project-number-pagination").activateSliderThumbs({
+                sliderTab: true,
+                tabButton: ".tab-btn",
+            });
+        }
+    });
+     
     
 
     /*----------- 08. Ajax Contact Form ----------*/

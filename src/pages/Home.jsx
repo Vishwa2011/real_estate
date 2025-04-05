@@ -683,7 +683,12 @@ export default function Home() {
       {/* <!--Portfolio Area  --> */}
       <section
         className="project-area-1 space overflow-hidden"
-        data-bg-src="assets/img/bg/project-bg-1-1.png"
+        style={{
+          backgroundImage: "url('assets/pic/projectscover.webp')",
+          backgroundSize: "cover",
+           backgroundRepeat: "no-repeat",
+           backgroundPosition: "center",
+        }}
         data-opacity="5"
         data-overlay="title"
       >
@@ -982,7 +987,7 @@ export default function Home() {
                         </div>
                       </div>
 
-                      <div className="swiper-slide">
+                      {/* <div className="swiper-slide">
                         <div className="portfolio-card">
                           <div
                             className="portfolio-img img-shine"
@@ -1104,7 +1109,7 @@ export default function Home() {
                             </a>
                           </div>
                         </div>
-                      </div>
+                      </div> */}
                     </div>
                     <div className="slider-pagination d-sm-block d-none"></div>
                   </div>
