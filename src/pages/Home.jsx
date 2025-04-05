@@ -224,7 +224,7 @@ export default function Home() {
                 <div
                   className="th-hero-bg"
                   style={{
-                    backgroundImage: "url('assets/img/hero/hero_bg_1_1.jpg')",
+                    backgroundImage: "url('assets/pic/Merewether.jpg')",
                     backgroundSize: "cover",
                     backgroundRepeat: "no-repeat",
                     backgroundPosition: "center",
@@ -305,7 +305,7 @@ export default function Home() {
                 <div
                   className="th-hero-bg"
                   style={{
-                    backgroundImage: "url('assets/img/hero/hero_bg_1_1.jpg')",
+                    backgroundImage: "url('assets/pic/Modern-House-Design.jpg')",
                     backgroundSize: "cover",
                     backgroundRepeat: "no-repeat",
                     backgroundPosition: "center",
@@ -386,7 +386,7 @@ export default function Home() {
                 <div
                   className="th-hero-bg"
                   style={{
-                    backgroundImage: "url('assets/img/hero/hero_bg_1_1.jpg')",
+                    backgroundImage: "url('assets/pic/modern2.jpg')",
                     backgroundSize: "cover",
                     backgroundRepeat: "no-repeat",
                     backgroundPosition: "center",
@@ -592,7 +592,7 @@ export default function Home() {
                   </div>
                   {/* Circle Image */}
                   <div className="about-tag-thumb">
-                    <img src="assets/img/normal/about_1_3.png" alt="img" />
+                    <img src="/assets/pic/contractor-on-site.jpg" alt="img" />
                   </div>
                 </div>
               </div>
@@ -754,7 +754,7 @@ export default function Home() {
                             data-bs-target="#portfolioModal"
                           >
                             <img
-                              src="assets/img/project/project_1_1.png"
+                              src="/assets/pic/shape1.jpg"
                               alt="project image"
                             />
 
@@ -774,7 +774,7 @@ export default function Home() {
                               }}
                             >
                               <img
-                                src="assets/img/project/project_shape1_1.png"
+                                src="/assets/pic/resized_image.png"
                                 alt="img"
                               />
                             </div>
@@ -816,7 +816,7 @@ export default function Home() {
                             data-bs-target="#portfolioModal"
                           >
                             <img
-                              src="assets/img/project/project_1_2.png"
+                              src="/assets/pic/shape2.png"
                               alt="project image"
                             />
 
@@ -836,7 +836,7 @@ export default function Home() {
                               }}
                             >
                               <img
-                                src="assets/img/project/project_shape1_1.png"
+                                src="/assets/pic/resized_image.png"
                                 alt="img"
                               />
                             </div>
@@ -878,7 +878,7 @@ export default function Home() {
                             data-bs-target="#portfolioModal"
                           >
                             <img
-                              src="assets/img/project/project_1_3.png"
+                              src="/assets/pic/shape3.jpg"
                               alt="project image"
                             />
 
@@ -898,7 +898,7 @@ export default function Home() {
                               }}
                             >
                               <img
-                                src="assets/img/project/project_shape1_1.png"
+                                src="/assets/pic/resized_image.png"
                                 alt="img"
                               />
                             </div>
@@ -940,7 +940,7 @@ export default function Home() {
                             data-bs-target="#portfolioModal"
                           >
                             <img
-                              src="assets/img/project/project_1_1.png"
+                              src="/assets/pic/shape4.jpg"
                               alt="project image"
                             />
 
@@ -960,7 +960,7 @@ export default function Home() {
                               }}
                             >
                               <img
-                                src="assets/img/project/project_shape1_1.png"
+                                src="/assets/pic/resized_image.png"
                                 alt="img"
                               />
                             </div>
@@ -1002,7 +1002,7 @@ export default function Home() {
                             data-bs-target="#portfolioModal"
                           >
                             <img
-                              src="assets/img/project/project_1_2.png"
+                              src="/assets/pic/shape5.webp"
                               alt="project image"
                             />
 
@@ -1022,7 +1022,7 @@ export default function Home() {
                               }}
                             >
                               <img
-                                src="assets/img/project/project_shape1_1.png"
+                                src="/assets/pic/resized_image.png"
                                 alt="img"
                               />
                             </div>
@@ -1064,7 +1064,7 @@ export default function Home() {
                             data-bs-target="#portfolioModal"
                           >
                             <img
-                              src="assets/img/project/project_1_2.png"
+                              src="/assets/pic/shape6.jpg"
                               alt="project image"
                             />
 
@@ -1084,7 +1084,7 @@ export default function Home() {
                               }}
                             >
                               <img
-                                src="assets/img/project/project_shape1_1.png"
+                                src="/assets/pic/resized_image.png"
                                 alt="img"
                               />
                             </div>
@@ -1975,9 +1975,182 @@ export default function Home() {
                         maskPosition: "center",
                       }}
                     >
-                      <img src="assets/img/team/team_1_1.png" alt="Team" />
+                      <img src="/assets/pic/team1.jpg" alt="Team" />
                     </div>
                   </div>
+                  <div className="team-card-content">
+                    <div className="media">
+                      <div className="media-left">
+                        <h3 className="box-title">
+                          <a href="">Janny Wilson</a>
+                        </h3>
+                        <span className="team-desig">Property Expert</span>
+                      </div>
+                      <div className="media-body">
+                        <a className="icon-btn" href="tel:09876543210">
+                          <img src="assets/img/icon/phone.svg" alt="img" />
+                        </a>
+                      </div>
+                    </div>
+                    <div className="th-social">
+                      <a target="_blank" href="https://facebook.com/">
+                        <i className="fab fa-facebook-f"></i>
+                      </a>
+                      <a target="_blank" href="https://twitter.com/">
+                        <i className="fab fa-twitter"></i>
+                      </a>
+                      <a target="_blank" href="https://linkedin.com/">
+                        <i className="fab fa-linkedin-in"></i>
+                      </a>
+                      <a target="_blank" href="https://youtube.com/">
+                        <i className="fab fa-youtube"></i>
+                      </a>
+                      <a target="_blank" href="https://instagram.com/">
+                        <i className="fab fa-instagram"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* <!-- Single Item --> */}
+              <div className="swiper-slide">
+                <div className="th-team team-card">
+                  <div className="img-wrap">
+                    <div
+                      className="team-img"
+                      style={{
+                        WebkitMaskImage:
+                          "url('assets/img/theme-img/team-shape1.png')",
+                        maskImage:
+                          "url('assets/img/theme-img/team-shape1.png')",
+                        WebkitMaskSize: "cover",
+                        maskSize: "cover",
+                        WebkitMaskRepeat: "no-repeat",
+                        maskRepeat: "no-repeat",
+                        WebkitMaskPosition: "center",
+                        maskPosition: "center",
+                      }}
+                    >
+                      <img src="/assets/pic/team2.jpg" alt="Team" />
+                    </div>
+                  </div>
+                  <div className="team-card-content">
+                    <div className="media">
+                      <div className="media-left">
+                        <h3 className="box-title">
+                          <a href="">Andrew Richard</a>
+                        </h3>
+                        <span className="team-desig">Property Expert</span>
+                      </div>
+                      <div className="media-body">
+                        <a className="icon-btn" href="tel:09876543210">
+                          <img src="assets/img/icon/phone.svg" alt="img" />
+                        </a>
+                      </div>
+                    </div>
+                    <div className="th-social">
+                      <a target="_blank" href="https://facebook.com/">
+                        <i className="fab fa-facebook-f"></i>
+                      </a>
+                      <a target="_blank" href="https://twitter.com/">
+                        <i className="fab fa-twitter"></i>
+                      </a>
+                      <a target="_blank" href="https://linkedin.com/">
+                        <i className="fab fa-linkedin-in"></i>
+                      </a>
+                      <a target="_blank" href="https://youtube.com/">
+                        <i className="fab fa-youtube"></i>
+                      </a>
+                      <a target="_blank" href="https://instagram.com/">
+                        <i className="fab fa-instagram"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* <!-- Single Item --> */}
+              <div className="swiper-slide">
+                <div className="th-team team-card">
+                  <div className="img-wrap">
+                    <div
+                      className="team-img"
+                      style={{
+                        WebkitMaskImage:
+                          "url('assets/img/theme-img/team-shape1.png')",
+                        maskImage:
+                          "url('assets/img/theme-img/team-shape1.png')",
+                        WebkitMaskSize: "cover",
+                        maskSize: "cover",
+                        WebkitMaskRepeat: "no-repeat",
+                        maskRepeat: "no-repeat",
+                        WebkitMaskPosition: "center",
+                        maskPosition: "center",
+                      }}
+                    >
+                      <img src="/assets/pic/team3.jpg" alt="Team" />
+                    </div>
+                  </div>
+
+                  <div className="team-card-content">
+                    <div className="media">
+                      <div className="media-left">
+                        <h3 className="box-title">
+                          <a href="">Zarin Wilson</a>
+                        </h3>
+                        <span className="team-desig">Property Expert</span>
+                      </div>
+                      <div className="media-body">
+                        <a className="icon-btn" href="tel:09876543210">
+                          <img src="assets/img/icon/phone.svg" alt="img" />
+                        </a>
+                      </div>
+                    </div>
+                    <div className="th-social">
+                      <a target="_blank" href="https://facebook.com/">
+                        <i className="fab fa-facebook-f"></i>
+                      </a>
+                      <a target="_blank" href="https://twitter.com/">
+                        <i className="fab fa-twitter"></i>
+                      </a>
+                      <a target="_blank" href="https://linkedin.com/">
+                        <i className="fab fa-linkedin-in"></i>
+                      </a>
+                      <a target="_blank" href="https://youtube.com/">
+                        <i className="fab fa-youtube"></i>
+                      </a>
+                      <a target="_blank" href="https://instagram.com/">
+                        <i className="fab fa-instagram"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* <!-- Single Item --> */}
+              <div className="swiper-slide">
+                <div className="th-team team-card">
+                  <div className="img-wrap">
+                    <div
+                      className="team-img"
+                      style={{
+                        WebkitMaskImage:
+                          "url('assets/img/theme-img/team-shape1.png')",
+                        maskImage:
+                          "url('assets/img/theme-img/team-shape1.png')",
+                        WebkitMaskSize: "cover",
+                        maskSize: "cover",
+                        WebkitMaskRepeat: "no-repeat",
+                        maskRepeat: "no-repeat",
+                        WebkitMaskPosition: "center",
+                        maskPosition: "center",
+                      }}
+                    >
+                      <img src="/assets/pic/team4.jpg" alt="Team" />
+                    </div>
+                  </div>
+
                   <div className="team-card-content">
                     <div className="media">
                       <div className="media-left">
@@ -2013,296 +2186,9 @@ export default function Home() {
                 </div>
               </div>
 
-              {/* <!-- Single Item --> */}
-              <div className="swiper-slide">
-                <div className="th-team team-card">
-                  <div className="img-wrap">
-                    <div
-                      className="team-img"
-                      style={{
-                        WebkitMaskImage:
-                          "url('assets/img/theme-img/team-shape1.png')",
-                        maskImage:
-                          "url('assets/img/theme-img/team-shape1.png')",
-                        WebkitMaskSize: "cover",
-                        maskSize: "cover",
-                        WebkitMaskRepeat: "no-repeat",
-                        maskRepeat: "no-repeat",
-                        WebkitMaskPosition: "center",
-                        maskPosition: "center",
-                      }}
-                    >
-                      <img src="assets/img/team/team_1_2.png" alt="Team" />
-                    </div>
-                  </div>
-                  <div className="team-card-content">
-                    <div className="media">
-                      <div className="media-left">
-                        <h3 className="box-title">
-                          <a href="">Sara Prova</a>
-                        </h3>
-                        <span className="team-desig">Property Expert</span>
-                      </div>
-                      <div className="media-body">
-                        <a className="icon-btn" href="tel:09876543210">
-                          <img src="assets/img/icon/phone.svg" alt="img" />
-                        </a>
-                      </div>
-                    </div>
-                    <div className="th-social">
-                      <a target="_blank" href="https://facebook.com/">
-                        <i className="fab fa-facebook-f"></i>
-                      </a>
-                      <a target="_blank" href="https://twitter.com/">
-                        <i className="fab fa-twitter"></i>
-                      </a>
-                      <a target="_blank" href="https://linkedin.com/">
-                        <i className="fab fa-linkedin-in"></i>
-                      </a>
-                      <a target="_blank" href="https://youtube.com/">
-                        <i className="fab fa-youtube"></i>
-                      </a>
-                      <a target="_blank" href="https://instagram.com/">
-                        <i className="fab fa-instagram"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              {/* <!-- Single Item --> */}
-              <div className="swiper-slide">
-                <div className="th-team team-card">
-                  <div className="img-wrap">
-                    <div
-                      className="team-img"
-                      style={{
-                        WebkitMaskImage:
-                          "url('assets/img/theme-img/team-shape1.png')",
-                        maskImage:
-                          "url('assets/img/theme-img/team-shape1.png')",
-                        WebkitMaskSize: "cover",
-                        maskSize: "cover",
-                        WebkitMaskRepeat: "no-repeat",
-                        maskRepeat: "no-repeat",
-                        WebkitMaskPosition: "center",
-                        maskPosition: "center",
-                      }}
-                    >
-                      <img src="assets/img/team/team_1_3.png" alt="Team" />
-                    </div>
-                  </div>
-
-                  <div className="team-card-content">
-                    <div className="media">
-                      <div className="media-left">
-                        <h3 className="box-title">
-                          <a href="">Janny Mari</a>
-                        </h3>
-                        <span className="team-desig">Property Expert</span>
-                      </div>
-                      <div className="media-body">
-                        <a className="icon-btn" href="tel:09876543210">
-                          <img src="assets/img/icon/phone.svg" alt="img" />
-                        </a>
-                      </div>
-                    </div>
-                    <div className="th-social">
-                      <a target="_blank" href="https://facebook.com/">
-                        <i className="fab fa-facebook-f"></i>
-                      </a>
-                      <a target="_blank" href="https://twitter.com/">
-                        <i className="fab fa-twitter"></i>
-                      </a>
-                      <a target="_blank" href="https://linkedin.com/">
-                        <i className="fab fa-linkedin-in"></i>
-                      </a>
-                      <a target="_blank" href="https://youtube.com/">
-                        <i className="fab fa-youtube"></i>
-                      </a>
-                      <a target="_blank" href="https://instagram.com/">
-                        <i className="fab fa-instagram"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              {/* <!-- Single Item --> */}
-              <div className="swiper-slide">
-                <div className="th-team team-card">
-                  <div className="img-wrap">
-                    <div
-                      className="team-img"
-                      style={{
-                        WebkitMaskImage:
-                          "url('assets/img/theme-img/team-shape1.png')",
-                        maskImage:
-                          "url('assets/img/theme-img/team-shape1.png')",
-                        WebkitMaskSize: "cover",
-                        maskSize: "cover",
-                        WebkitMaskRepeat: "no-repeat",
-                        maskRepeat: "no-repeat",
-                        WebkitMaskPosition: "center",
-                        maskPosition: "center",
-                      }}
-                    >
-                      <img src="assets/img/team/team_1_3.png" alt="Team" />
-                    </div>
-                  </div>
-
-                  <div className="team-card-content">
-                    <div className="media">
-                      <div className="media-left">
-                        <h3 className="box-title">
-                          <a href="">Michel Smith</a>
-                        </h3>
-                        <span className="team-desig">Property Expert</span>
-                      </div>
-                      <div className="media-body">
-                        <a className="icon-btn" href="tel:09876543210">
-                          <img src="assets/img/icon/phone.svg" alt="img" />
-                        </a>
-                      </div>
-                    </div>
-                    <div className="th-social">
-                      <a target="_blank" href="https://facebook.com/">
-                        <i className="fab fa-facebook-f"></i>
-                      </a>
-                      <a target="_blank" href="https://twitter.com/">
-                        <i className="fab fa-twitter"></i>
-                      </a>
-                      <a target="_blank" href="https://linkedin.com/">
-                        <i className="fab fa-linkedin-in"></i>
-                      </a>
-                      <a target="_blank" href="https://youtube.com/">
-                        <i className="fab fa-youtube"></i>
-                      </a>
-                      <a target="_blank" href="https://instagram.com/">
-                        <i className="fab fa-instagram"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              {/* <!-- Single Item --> */}
-              <div className="swiper-slide">
-                <div className="th-team team-card">
-                  <div className="img-wrap">
-                    <div
-                      className="team-img"
-                      style={{
-                        WebkitMaskImage:
-                          "url('assets/img/theme-img/team-shape1.png')",
-                        maskImage:
-                          "url('assets/img/theme-img/team-shape1.png')",
-                        WebkitMaskSize: "cover",
-                        maskSize: "cover",
-                        WebkitMaskRepeat: "no-repeat",
-                        maskRepeat: "no-repeat",
-                        WebkitMaskPosition: "center",
-                        maskPosition: "center",
-                      }}
-                    >
-                      <img src="assets/img/team/team_1_3.png" alt="Team" />
-                    </div>
-                  </div>
-
-                  <div className="team-card-content">
-                    <div className="media">
-                      <div className="media-left">
-                        <h3 className="box-title">
-                          <a href="">Sara Prova</a>
-                        </h3>
-                        <span className="team-desig">Property Expert</span>
-                      </div>
-                      <div className="media-body">
-                        <a className="icon-btn" href="tel:09876543210">
-                          <img src="assets/img/icon/phone.svg" alt="img" />
-                        </a>
-                      </div>
-                    </div>
-                    <div className="th-social">
-                      <a target="_blank" href="https://facebook.com/">
-                        <i className="fab fa-facebook-f"></i>
-                      </a>
-                      <a target="_blank" href="https://twitter.com/">
-                        <i className="fab fa-twitter"></i>
-                      </a>
-                      <a target="_blank" href="https://linkedin.com/">
-                        <i className="fab fa-linkedin-in"></i>
-                      </a>
-                      <a target="_blank" href="https://youtube.com/">
-                        <i className="fab fa-youtube"></i>
-                      </a>
-                      <a target="_blank" href="https://instagram.com/">
-                        <i className="fab fa-instagram"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              {/* <!-- Single Item --> */}
-              <div className="swiper-slide">
-                <div className="th-team team-card">
-                  <div className="img-wrap">
-                    <div
-                      className="team-img"
-                      style={{
-                        WebkitMaskImage:
-                          "url('assets/img/theme-img/team-shape1.png')",
-                        maskImage:
-                          "url('assets/img/theme-img/team-shape1.png')",
-                        WebkitMaskSize: "cover",
-                        maskSize: "cover",
-                        WebkitMaskRepeat: "no-repeat",
-                        maskRepeat: "no-repeat",
-                        WebkitMaskPosition: "center",
-                        maskPosition: "center",
-                      }}
-                    >
-                      <img src="assets/img/team/team_1_3.png" alt="Team" />
-                    </div>
-                  </div>
-
-                  <div className="team-card-content">
-                    <div className="media">
-                      <div className="media-left">
-                        <h3 className="box-title">
-                          <a href="">Janny Mari</a>
-                        </h3>
-                        <span className="team-desig">Property Expert</span>
-                      </div>
-                      <div className="media-body">
-                        <a className="icon-btn" href="tel:09876543210">
-                          <img src="assets/img/icon/phone.svg" alt="img" />
-                        </a>
-                      </div>
-                    </div>
-                    <div className="th-social">
-                      <a target="_blank" href="https://facebook.com/">
-                        <i className="fab fa-facebook-f"></i>
-                      </a>
-                      <a target="_blank" href="https://twitter.com/">
-                        <i className="fab fa-twitter"></i>
-                      </a>
-                      <a target="_blank" href="https://linkedin.com/">
-                        <i className="fab fa-linkedin-in"></i>
-                      </a>
-                      <a target="_blank" href="https://youtube.com/">
-                        <i className="fab fa-youtube"></i>
-                      </a>
-                      <a target="_blank" href="https://instagram.com/">
-                        <i className="fab fa-instagram"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              
             </div>
-            <div className="slider-pagination"></div>
+            {/* <div className="slider-pagination"></div> */}
             <button
               data-slider-prev="#teamSlider1"
               className="slider-arrow slider-prev"
@@ -2338,7 +2224,7 @@ export default function Home() {
                   maskPosition: "center",
                 }}
               >
-                <img src="assets/img/normal/cta_1_1.png" alt="img" />
+                <img src="/assets/pic/CONSULTING.jpg" alt="img" />
               </div>
             </div>
 
@@ -2373,16 +2259,17 @@ export default function Home() {
         <div className="container">
           <div className="row gy-80 flex-row-reverse">
             <div className="col-xl-5">
-              <div className="testi-thumb-wrap">
-                <div className="img1">
+              <div className="testi-thumb-wrap" >
+                <div className="img1" >
                   <img
-                    src="assets/img/testimonial/testi_thumb_1_1.png"
+                    src="/assets/pic/testi_thumb.jpg"
                     alt="img"
+                    
                   />
                 </div>
-                <div className="img2 jump">
+                <div className="img2 jump" >
                   <img
-                    src="assets/img/testimonial/testi_thumb_1_2.png"
+                    src="/assets/pic/testi_thumb1.jpg"
                     alt="img"
                   />
                 </div>
@@ -2421,7 +2308,7 @@ export default function Home() {
                             data-mask-src="assets/img/shape/testi_1_1-mask.png"
                           >
                             <img
-                              src="assets/img/testimonial/testi_1_1.png"
+                              src="/assets/pic/avatar1.jpg"
                               alt="avatar"
                             />
                           </div>
@@ -2460,7 +2347,7 @@ export default function Home() {
                             data-mask-src="assets/img/shape/testi_1_1-mask.png"
                           >
                             <img
-                              src="assets/img/testimonial/testi_1_2.png"
+                              src="/assets/pic/avatar1.jpg"
                               alt="avatar"
                             />
                           </div>
@@ -2499,7 +2386,7 @@ export default function Home() {
                             data-mask-src="assets/img/shape/testi_1_1-mask.png"
                           >
                             <img
-                              src="assets/img/testimonial/testi_1_3.png"
+                              src="/assets/pic/avatar1.jpg"
                               alt="avatar"
                             />
                           </div>
@@ -2529,7 +2416,11 @@ export default function Home() {
       {/* <!--Download Area--> */}
       <section
         className="download-area-1 space-top overflow-hidden"
-        data-bg-src="assets/img/bg/download-bg-1-1.png"
+        style={{
+          backgroundImage: 'url("/assets/pic/formal-living.jpg")',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+        }}
         data-opacity="5"
         data-overlay="title"
       >
@@ -2548,7 +2439,7 @@ export default function Home() {
                   </p>
                 </div>
                 <div className="btn-wrap justify-content-lg-start justify-content-center">
-                  <a href="" className="th-btn btn-mask th-btn-icon">
+                  <a href="/Contact" className="th-btn btn-mask th-btn-icon">
                     Download App
                   </a>
                 </div>
@@ -2556,10 +2447,10 @@ export default function Home() {
             </div>
             <div className="col-xxl-6 col-lg-5 align-self-end">
               <div className="download-thumb text-center">
-                <img src="/assets/img/normal/download_1_1.png" alt="img" />
+                <img src="/assets/pic/whats.jpg" alt="img" />
               </div>
             </div>
-          </div>
+          </div>  
         </div>
       </section>
 
@@ -2597,7 +2488,7 @@ export default function Home() {
               }}
             >
               <a href="">
-                <img src="assets/img/blog/blog_1_1.jpg" alt="blog image" />
+                <img src="/assets/pic/working-housing.jpg" alt="blog image" />
               </a>
             </div>
 
@@ -2615,12 +2506,12 @@ export default function Home() {
               <div className="blog-bottom-wrap">
                 <div className="blog-author-wrap">
                   <div className="avatar">
-                    <img src="assets/img/blog/avatar_1.png" alt="" />
+                    <img src="/assets/pic/avatar1.jpg" alt="" />
                   </div>
                   <a href="">By Admin</a>
                 </div>
                 <div className="blog-date">April 12, 2024 </div>
-                <a href="" className="th-btn btn-mask2 th-btn-icon">
+                <a href="/BlogDetails" className="th-btn btn-mask2 th-btn-icon">
                   Read More
                 </a>
               </div>
@@ -2643,7 +2534,7 @@ export default function Home() {
               }}
             >
               <a href="">
-                <img src="assets/img/blog/blog_1_1.jpg" alt="blog image" />
+                <img src="/assets/pic/construction-team.jpg" alt="blog image" />
               </a>
             </div>
 
@@ -2661,12 +2552,12 @@ export default function Home() {
               <div className="blog-bottom-wrap">
                 <div className="blog-author-wrap">
                   <div className="avatar">
-                    <img src="assets/img/blog/avatar_2.png" alt="" />
+                    <img src="/assets/pic/avatar1.jpg" alt="" />
                   </div>
                   <a href="">By Admin</a>
                 </div>
                 <div className="blog-date">March 16, 2024 </div>
-                <a href="" className="th-btn btn-mask2 th-btn-icon">
+                <a href="/BlogDetails" className="th-btn btn-mask2 th-btn-icon">
                   Read More
                 </a>
               </div>
@@ -2697,7 +2588,7 @@ export default function Home() {
                 <div className="page-img mb-30">
                   <img
                     className="w-100 rounded-20"
-                    src="assets/img/project/project_pop1_1.png"
+                    src="/assets/pic/Maison.jpg"
                     alt="portfolio Image"
                   />
                 </div>
@@ -2752,7 +2643,7 @@ export default function Home() {
                       <div className="page-img mb-0">
                         <img
                           className="w-100"
-                          src="assets/img/project/project_1_2.png"
+                          src="/assets/pic/shape1.jpg"
                           alt="portfolio Image"
                         />
                       </div>
