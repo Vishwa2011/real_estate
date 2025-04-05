@@ -261,7 +261,7 @@ export default function Home() {
                           selling goals. We are with you every step of the way.
                         </p>
                         <a
-                          href=""
+                          href="/Property"
                           className="th-btn btn-mask th-btn-icon"
                           data-ani="slideinup"
                           data-ani-delay="0.6s"
@@ -342,7 +342,7 @@ export default function Home() {
                           selling goals. We are with you every step of the way.
                         </p>
                         <a
-                          href=""
+                          href="/Property"
                           className="th-btn btn-mask th-btn-icon"
                           data-ani="slideinup"
                           data-ani-delay="0.6s"
@@ -423,7 +423,7 @@ export default function Home() {
                           selling goals. We are with you every step of the way.
                         </p>
                         <a
-                          href=""
+                          href="/Property"
                           className="th-btn btn-mask th-btn-icon"
                           data-ani="slideinup"
                           data-ani-delay="0.6s"
@@ -512,7 +512,7 @@ export default function Home() {
             </div>
             <div className="col-lg-auto">
               <div className="sec-btn">
-                <a href="" className="th-btn btn-mask th-btn-icon">
+                <a href="/Aboutus" className="th-btn btn-mask th-btn-icon">
                   Learn More
                 </a>
               </div>
@@ -725,7 +725,7 @@ export default function Home() {
                     </p>
                   </div>
                   <div className="btn-wrap">
-                    <a href="" className="th-btn btn-mask th-btn-icon">
+                    <a href="/Property" className="th-btn btn-mask th-btn-icon">
                       Explore More
                     </a>
                   </div>
@@ -1205,7 +1205,7 @@ export default function Home() {
                     />
                     <a href="">Admin</a>
                   </div>
-                  <a href="" className="th-btn btn-mask2 th-btn-icon">
+                  <a href="/PropertyDetails" className="th-btn btn-mask2 th-btn-icon">
                     Details
                   </a>
                 </div>
@@ -1275,7 +1275,7 @@ export default function Home() {
                     />
                     <a href="">Admin</a>
                   </div>
-                  <a href="" className="th-btn btn-mask2 th-btn-icon">
+                  <a href="/PropertyDetails" className="th-btn btn-mask2 th-btn-icon">
                     Details
                   </a>
                 </div>
@@ -1345,7 +1345,7 @@ export default function Home() {
                     />
                     <a href="">Admin</a>
                   </div>
-                  <a href="" className="th-btn btn-mask2 th-btn-icon">
+                  <a href="/PropertyDetails" className="th-btn btn-mask2 th-btn-icon">
                     Details
                   </a>
                 </div>
@@ -1415,7 +1415,7 @@ export default function Home() {
                     />
                     <a href="">Admin</a>
                   </div>
-                  <a href="" className="th-btn btn-mask2 th-btn-icon">
+                  <a href="/PropertyDetails" className="th-btn btn-mask2 th-btn-icon">
                     Details
                   </a>
                 </div>
@@ -1910,7 +1910,7 @@ export default function Home() {
                 </p>
               </div>
               <div className="btn-wrap mb-55">
-                <a href="" className="th-btn style2 btn-mask th-btn-icon">
+                <a href="/Property" className="th-btn style2 btn-mask th-btn-icon">
                   Reques A Visit
                 </a>
               </div>
@@ -1948,11 +1948,11 @@ export default function Home() {
               </div>
             </div>
             <div className="col-auto">
-              <div className="sec-btn">
+              {/* <div className="sec-btn">
                 <a href="" className="th-btn btn-mask th-btn-icon">
                   View All Members
                 </a>
-              </div>
+              </div> */}
             </div>
           </div>
           <div
