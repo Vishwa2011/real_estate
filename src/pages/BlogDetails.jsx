@@ -224,9 +224,9 @@ useEffect(() => {
                         </div>
                         <div className="blog-content">
                             <div className="blog-meta">
-                                <a className="author" href="blog.html"><i className="far fa-user"></i>by David Smith</a>
-                                <a href="blog.html"><i className="far fa-clock"></i>05 June, 2024</a>
-                                <a href="blog.html"><i className="far fa-house-building"></i>Modern House</a>
+                                <a className="author" href=""><i className="far fa-user"></i>by David Smith</a>
+                                <a href=""><i className="far fa-clock"></i>05 June, 2024</a>
+                                <a href=""><i className="far fa-house-building"></i>Modern House</a>
                             </div>
                             <h2 className="blog-title">Relar Residence promotes sustainable transportation options, with dedicated spaces.</h2>
                             <p className="blog-text">Welcome to Realar Residence, where sustainability meets comfort in every corner. In this blog post, we'll explore the green innovations seamlessly integrated into the fabric of EcoLand, creating a unique and eco-friendly living experience for its residents.</p>
@@ -239,11 +239,11 @@ useEffect(() => {
                             <p className="blog-text">Dinning: Prepare a dinner using fresh ingredients from your own garden or the local CSA program. The energy-efficient appliances in your kitchen make cooking a breeze while minimizing your overall energy consumption. Share a meal with neighbors, The quiet night offers a peaceful ambiance, reinforcing the community's commitment to a sustainable, low-impact lifestyle.</p>
                             <p className="blog-text">Living sustainably at Realar Residence is more than a choice; it's an immersive experience that shapes every moment of your day. From the moment you wake up in your solar-powered home to the evening gatherings with like-minded neighbors</p>
                             <h2 className="blog-title">Residence is not just a place to live it's asustainable way of life.</h2>
-                            <p className="blog-text mt-25">‍Whether you work from home or commute to a nearby office, the energy-efficient features of your home contribute to a productive and eco-conscious workday. Smart home systems allow you to monitor and control energy usage, ensuring that your environmental impact remains minimal.</p>
+                            <p className="blog-text mt-25">Whether you work from home or commute to a nearby office, the energy-efficient features of your home contribute to a productive and eco-conscious workday. Smart home systems allow you to monitor and control energy usage, ensuring that your environmental impact remains minimal.</p>
                             <div className="blog-img mb-40">
                                 <img src="/assets/pic/blogdetails5.jpg" alt="img" />
                             </div>
-                            <div className="checklist">
+                            <div className="checklist">   
                                 <ul>
                                     <li><span>1.</span>Neighborhood: Choosing the ideal neighborhood is an important choice that extends beyond a property's physical characteristics. We'll go over the things to take into account while selecting a neighborhood in this piece, including future growth plans, school districts, and amenities. To make sure that the community you choose fits both your present requirements and your long-term goals, learn how to balance your lifestyle choices and property prices.</li>
                                     <li><span>2.</span>Buying a first home may be an exciting and daunting experience for those who have never done it before. This blog article serves as a thorough guide to help you through the process of buying your first house. We're here to provide you with useful advice and insights to help you navigate every step of the home-buying process, from comprehending the financial elements to luxury about its all realar properties nuances.</li>
@@ -256,10 +256,10 @@ useEffect(() => {
                             <div className="col-md-auto">
                                 <span className="share-links-title">Tags:</span>
                                 <div className="tagcloud">
-                                    <a href="blog.html">Apartment</a>
-                                    <a href="blog.html">Buyer</a>
-                                    <a href="blog.html">Modern</a>
-                                    <a href="blog.html">Luxury</a>
+                                    <a href="">Apartment</a>
+                                    <a href="">Buyer</a>
+                                    <a href="">Modern</a>
+                                    <a href="">Luxury</a>
                                 </div>
                             </div>
                             <div className="col-md-auto text-xl-end">
@@ -287,7 +287,7 @@ useEffect(() => {
                                         <span className="commented-on">25Jan, 2024 08:56pm</span>
                                         <p className="text">Through this blog, we aim to inspire readers to embrace education as a lifelong journey and to advocate for quality education</p>
                                         <div className="reply_and_edit">
-                                            <a href="blog-details.html" className="reply-btn"><i className="fas fa-reply"></i>Reply</a>
+                                            <a href="" className="reply-btn"><i className="fas fa-reply"></i>Reply</a>
                                         </div>
                                     </div>
                                 </div>
@@ -302,13 +302,14 @@ useEffect(() => {
                                                 <span className="commented-on">27Jan, 2024 09:00pm</span>
                                                 <p className="text">Education News and Trends: We provide updates on the latest developments and trends in the education sector.</p>
                                                 <div className="reply_and_edit">
-                                                    <a href="blog-details.html" className="reply-btn"><i className="fas fa-reply"></i>Reply</a>
+                                                    <a href="" className="reply-btn"><i className="fas fa-reply"></i>Reply</a>
                                                 </div>
                                             </div>
                                         </div>
                                     </li>
                                 </ul>
                             </li>
+                            
                             <li className="th-comment-item">
                                 <div className="th-post-comment">
                                     <div className="comment-avater">
@@ -319,7 +320,7 @@ useEffect(() => {
                                         <span className="commented-on">28Jan, 2024 10:15pm</span>
                                         <p className="text">We discuss strategies to help students make informed decisions about their educational and career paths.</p>
                                         <div className="reply_and_edit">
-                                            <a href="blog-details.html" className="reply-btn"><i className="fas fa-reply"></i>Reply</a>
+                                            <a href="" className="reply-btn"><i className="fas fa-reply"></i>Reply</a>
                                         </div>
                                     </div>
                                 </div>
@@ -371,23 +372,23 @@ useEffect(() => {
                             <h3 className="widget_title">Post Categories</h3>
                             <ul>
                                 <li>
-                                    <a href="blog.html">Apartment <span>(8)</span></a>
+                                    <a href="">Apartment <span>(8)</span></a>
 
                                 </li>
                                 <li>
-                                    <a href="blog.html">Real Estate <span>(10)</span></a>
+                                    <a href="">Real Estate <span>(10)</span></a>
                                 </li>
                                 <li>
-                                    <a href="blog.html">Property <span>(12)</span></a>
+                                    <a href="">Property <span>(12)</span></a>
                                 </li>
                                 <li>
-                                    <a href="blog.html">News & Tips <span>(6)</span></a>
+                                    <a href="">News & Tips <span>(6)</span></a>
                                 </li>
                                 <li>
-                                    <a href="blog.html">Modern Houses <span>(8)</span></a>
+                                    <a href="">Modern Houses <span>(8)</span></a>
                                 </li>
                                 <li>
-                                    <a href="blog.html">Banglow <span>(11)</span></a>
+                                    <a href="">Banglow <span>(11)</span></a>
                                 </li>
                             </ul>
                         </div>
@@ -396,34 +397,34 @@ useEffect(() => {
                             <div className="recent-post-wrap">
                                 <div className="recent-post">
                                     <div className="media-img">
-                                        <a href="blog-details.html"><img src="/assets/pic/blogdetail2.webp" alt="Blog Image" /></a>
+                                        <a href=""><img src="/assets/pic/blogdetail2.webp" alt="Blog Image" /></a>
                                     </div>
                                     <div className="media-body">
-                                        <h4 className="post-title"><a className="text-inherit" href="blog-details.html">Exploring The Green Spaces Of Realar Residence</a></h4>
+                                        <h4 className="post-title"><a className="text-inherit" href="">Exploring The Green Spaces Of Realar Residence</a></h4>
                                         <div className="recent-post-meta">
-                                            <a href="blog.html"><i className="far fa-calendar"></i>22/6/2024</a>
+                                            <a href=""><i className="far fa-calendar"></i>22/6/2024</a>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="recent-post">
                                     <div className="media-img">
-                                        <a href="blog-details.html"><img src="/assets/pic/blogdetails3.webp" alt="Blog Image" /></a>
+                                        <a href=""><img src="/assets/pic/blogdetails3.webp" alt="Blog Image" /></a>
                                     </div>
                                     <div className="media-body">
-                                        <h4 className="post-title"><a className="text-inherit" href="blog-details.html">Harmony With Nature Of Realar Residence</a></h4>
+                                        <h4 className="post-title"><a className="text-inherit" href="">Harmony With Nature Of Realar Residence</a></h4>
                                         <div className="recent-post-meta">
-                                            <a href="blog.html"><i className="far fa-calendar"></i>25/6/2024</a>
+                                            <a href=""><i className="far fa-calendar"></i>25/6/2024</a>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="recent-post">
                                     <div className="media-img">
-                                        <a href="blog-details.html"><img src="/assets/pic/blogdetails4.webp" alt="Blog Image" /></a>
+                                        <a href=""><img src="/assets/pic/blogdetails4.webp" alt="Blog Image" /></a>
                                     </div>
                                     <div className="media-body">
-                                        <h4 className="post-title"><a className="text-inherit" href="blog-details.html">Exploring The Green Spaces Of Realar Residence</a></h4>
+                                        <h4 className="post-title"><a className="text-inherit" href="">Exploring The Green Spaces Of Realar Residence</a></h4>
                                         <div className="recent-post-meta">
-                                            <a href="blog.html"><i className="far fa-calendar"></i>27/6/2024</a>
+                                            <a href=""><i className="far fa-calendar"></i>27/6/2024</a>
                                         </div>
                                     </div>
                                 </div>
@@ -432,14 +433,14 @@ useEffect(() => {
                         <div className="widget widget_tag_cloud  ">
                             <h3 className="widget_title">Popular Tags</h3>
                             <div className="tagcloud">
-                                <a href="blog.html">Business</a>
-                                <a href="blog.html">Buyer</a>
-                                <a href="blog.html">Rent</a>
-                                <a href="blog.html">Innovate</a>
-                                <a href="blog.html">Real estate</a>
-                                <a href="blog.html">Modern</a>
-                                <a href="blog.html">Luxury</a>
-                                <a href="blog.html">Sale</a>
+                                <a href="">Business</a>
+                                <a href="">Buyer</a>
+                                <a href="">Rent</a>
+                                <a href="">Innovate</a>
+                                <a href="">Real estate</a>
+                                <a href="">Modern</a>
+                                <a href="">Luxury</a>
+                                <a href="">Sale</a>
                             </div>
                         </div>
                         <div className="widget widget_banner  " style={{ backgroundImage: `url('/assets/pic/blog8.webp')` }}>
@@ -448,7 +449,7 @@ useEffect(() => {
                                 <div className="logo"><img src="assets/img/logo.svg" alt="img" /></div>
                                 <h4 className="subtitle">You Get Online support</h4>
                                 <h5 className="link"><a href="tel:256214203215">+256 214 203 215</a></h5>
-                                <a href="blog-details.html" className="th-btn style-border th-btn-icon">Read More</a>
+                                <a href="" className="th-btn style-border th-btn-icon">Read More</a>
                             </div>
                         </div>
                     </aside>

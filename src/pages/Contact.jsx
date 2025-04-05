@@ -274,7 +274,7 @@ useEffect(() => {
                 <div className="col-lg-6">
                     <div className="appointment-wrap2 bg-white me-xxl-5">
                         <h2 className="form-title text-theme">Schedule a visit</h2>
-                        <form action="mail.php" method="POST" className="appointment-form ajax-contact">
+                        <div className="appointment-form ajax-contact">
                             <div className="row">
                                 <div className="form-group style-border style-radius col-12">
                                     <input type="text" className="form-control" name="name" id="name" placeholder="Your Name*" />
@@ -303,7 +303,7 @@ useEffect(() => {
                                 </div>
                             </div>
                             <p className="form-messages mb-0 mt-3"></p>
-                        </form>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -297,7 +297,7 @@ useEffect(() => {
                 </div>
                 <div className="col-auto">
                     <div className="sec-btn">
-                        <a href="" className="th-btn style-border th-btn-icon">Contact Us</a>
+                        <a href="/Contact" className="th-btn style-border th-btn-icon">Contact Us</a>
                     </div>
                 </div>
             </div>
@@ -495,9 +495,9 @@ useEffect(() => {
                     </div>
                 </div>
                 <div className="col-auto">
-                    <div className="sec-btn">
+                    {/* <div className="sec-btn">
                         <a href="" className="th-btn style-border th-btn-icon">View All Team</a>
-                    </div>
+                    </div> */}
                 </div>
             </div>
             <div className="slider-area team-slider3">

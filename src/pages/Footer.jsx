@@ -111,12 +111,12 @@ export default function Footer() {
                                 <ul>
                                     <li><a href="/Termsandcondition">Terms of service</a></li>
                                     <li><a href="/PrivacyPolicy">Privacy policy</a></li>
-                                    <li><a href="">Cookies</a></li>
+                                    {/* <li><a href="">Cookies</a></li> */}
                                 </ul>
                             </div>
                         </div>
                     </div>
-                </div>
+                </div>  
             </div>
         </div>
     </footer>
