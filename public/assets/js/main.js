@@ -310,23 +310,39 @@
     });
     
 
-    // Add click event handlers for external slider arrows based on data attributes
-    $('[data-slider-prev], [data-slider-next]').on('click', function () {
-        var sliderSelector = $(this).data('slider-prev') || $(this).data('slider-next');
-        var targetSlider = $(sliderSelector);
-
-        if (targetSlider.length) {
-            var swiper = targetSlider[0].swiper;
-
-            if (swiper) {
-                if ($(this).data('slider-prev')) {
-                    swiper.slidePrev(); 
+    $(document).ready(function () {
+        // Add click event handlers for external slider arrows based on data attributes
+        $('[data-slider-prev], [data-slider-next]').on('click', function (e) {
+            e.preventDefault();
+    
+            // Get the slider selector from data attribute
+            var sliderSelector = $(this).data('slider-prev') || $(this).data('slider-next');
+    
+            // Ensure the selector exists
+            if (!sliderSelector) return;
+    
+            // Find the slider element
+            var $targetSlider = $(sliderSelector);
+    
+            if ($targetSlider.length) {
+                // Access Swiper instance
+                var swiperInstance = $targetSlider[0].swiper;
+    
+                if (swiperInstance) {
+                    if ($(this).data('slider-prev') !== undefined) {
+                        swiperInstance.slidePrev();
+                    } else if ($(this).data('slider-next') !== undefined) {
+                        swiperInstance.slideNext();
+                    }
                 } else {
-                    swiper.slideNext(); 
+                    console.warn('Swiper instance not found for', sliderSelector);
                 }
+            } else {
+                console.warn('Target slider not found for selector:', sliderSelector);
             }
-        }
+        });
     });
+    
 
 
     /*--------------. Slider Tab -------------*/
