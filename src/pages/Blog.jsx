@@ -255,7 +255,7 @@ useEffect(() => {
                             </div>
                             <h2 className="blog-title"><a href="">Exploring The Green Spaces Of Realar Residence Harmony with Nature</a></h2>
                             <p className="blog-text">Uniquely pursue emerging experiences before liemerging content. Efficiently underwhelm customer directed total linkage after B2C synergy. Dynamically simplify superior human capital whereas efficient infrastructures generate business web-readiness after wireless outsourcing.</p>
-                            <a href="" className="th-btn style-border2 th-btn-icon">Read More</a>
+                            <a href="/BlogDetails" className="th-btn style-border2 th-btn-icon">Read More</a>
                         </div>
                     </div>
 
@@ -269,7 +269,7 @@ useEffect(() => {
                             <h2 className="blog-title"><a href="">Enrich Your Mind Envision Your Future Education for Success</a>
                             </h2>
                             <p className="blog-text">An effective marketing involves market research target audience identification, competitive. providing opportunities for professional growth a maintaining positive work environment. To enhance online presence, consider optimizing your web utilizing social with your channels</p>
-                            <a href="" className="th-btn style-border2 th-btn-icon">Read More</a>
+                            <a href="/BlogDetails" className="th-btn style-border2 th-btn-icon">Read More</a>
                         </div>
                     </div>
 
@@ -287,7 +287,7 @@ useEffect(() => {
                             <h2 className="blog-title"><a href="">University class starting soon while the lovely valley team work</a>
                             </h2>
                             <p className="blog-text">From strategic planning to operational optimization, our business consulting team is committed to guiding you through every stage of development, ensuring sustainable growth.Our seasoned consultants bring a wealth of experience to the table.</p>
-                            <a href="" className="th-btn style-border2 th-btn-icon">Read More</a>
+                            <a href="/BlogDetails" className="th-btn style-border2 th-btn-icon">Read More</a>
                         </div>
                     </div>
 
@@ -304,13 +304,13 @@ useEffect(() => {
                             <h2 className="blog-title"><a href="">Discover unparalleled expertise in market</a>
                             </h2>
                             <p className="blog-text">Take the first step towards a brighter business future. Contact us today to explore how our business consulting services can drive innovation, increase efficiency, and position your company for enduring success. At the core of our business consulting philosophy.</p>
-                            <a href="" className="th-btn style-border2 th-btn-icon">Read More</a>
+                            <a href="/BlogDetails" className="th-btn style-border2 th-btn-icon">Read More</a>
                         </div>
                     </div>
 
                     <div className="th-pagination ">
                         <ul>
-                            {/* <!-- <li><a className="prev-page" href=""><i className="far fa-arrow-left me-2"></i>Previous</a></li> --> */}
+                            {/* <li><a className="prev-page" href=""><i className="far fa-arrow-left me-2"></i>Previous</a></li> */}
                             <li><a className="active" href="">1</a></li>
                             <li><a href="">2</a></li>
                             <li><a href="">3</a></li>
@@ -407,7 +407,7 @@ useEffect(() => {
                                 <div className="logo"><img src="assets/img/logo.svg" alt="img" /></div>
                                 <h4 className="subtitle">You Get Online support</h4>
                                 <h5 className="link"><a href="tel:256214203215">+256 214 203 215</a></h5>
-                                <a href="" className="th-btn style-border th-btn-icon">Read More</a>
+                                <a href="/Contact" className="th-btn style-border th-btn-icon">Read More</a>
                             </div>
                         </div>
                     </aside>

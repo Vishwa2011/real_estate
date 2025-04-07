@@ -1888,8 +1888,8 @@ export default function Home() {
       <div className="container">
         <div className="video-area-1 ">
           <div className="video-wrap1">
-            <div className="video-box1">
-              <img src="/assets/pic/hovering-staircase.jpg" alt="img" />
+            <div className="video-box1" >
+              <img src="/assets/pic/hovering-staircase.jpg" alt="img" style={{borderRadius:'0px 20px 20px 0px'}}/>
               <a
                 href="https://www.youtube.com/watch?v=_sI_Ps7JSEk"
                 className="play-btn style3 popup-video"
@@ -2466,12 +2466,12 @@ export default function Home() {
             <div className="col-xl-5 col-lg-7">
               <div className="title-area">
                 <span className="shadow-title">Blog</span>
-                <h2 className="sec-title text-white">Latest Blog & News</h2>
+                <h2 className="sec-title text-white">Lat est Blog & News</h2>
               </div>
             </div>
             <div className="col-auto">
               <div className="sec-btn">
-                <a href="" className="th-btn btn-mask th-btn-icon">
+                <a href="/Blog" className="th-btn btn-mask th-btn-icon">
                   Browse All Blog
                 </a>
               </div>
