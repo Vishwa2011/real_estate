@@ -455,9 +455,9 @@ export default function Home() {
         </div>
         <div className="hero-social-link">
           <div className="social-wrap">
-            <a href="https://facebook.com/">FACEBOOK</a>
-            <a href="https://instagram.com/">INSTAGRAM</a>
-            <a href="https://twitter.com/">TWITTER</a>
+            <a target="blank" href="https://facebook.com/">FACEBOOK</a>
+            <a target="blank" href="https://instagram.com/">INSTAGRAM</a>
+            <a target="blank" href="https://twitter.com/">TWITTER</a>
           </div>
         </div>
         <div className="scroll-down">

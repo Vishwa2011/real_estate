@@ -97,10 +97,10 @@ export default function Footer2() {
                     </div>
                     <div className="col-lg-6">
                         <div className="th-social justify-content-lg-end justify-content-center">
-                            <a href="https://www.facebook.com/"><i className="fab fa-facebook-f"></i></a>
-                            <a href="https://www.twitter.com/"><i className="fab fa-twitter"></i></a>
-                            <a href="https://www.instagram.com/"><i className="fab fa-youtube"></i></a>
-                            <a href="https://www.instagram.com/"><i className="fab fa-instagram"></i></a>
+                            <a target="black" href="https://www.facebook.com/"><i className="fab fa-facebook-f"></i></a>
+                            <a target="black" href="https://www.twitter.com/"><i className="fab fa-twitter"></i></a>
+                            <a target="black" href="https://www.instagram.com/"><i className="fab fa-youtube"></i></a>
+                            <a target="black" href="https://www.instagram.com/"><i className="fab fa-instagram"></i></a>
                         </div>
                     </div>
                 </div>

@@ -265,10 +265,10 @@ useEffect(() => {
                             <div className="col-md-auto text-xl-end">
                                 <span className="share-links-title">Share:</span>
                                 <div className="th-social style2 align-items-center">
-                                    <a href="https://www.facebook.com/"><i className="fab fa-facebook-f"></i></a>
-                                    <a href="https://www.twitter.com/"><i className="fab fa-twitter"></i></a>
-                                    <a href="https://www.linkedin.com/"><i className="fab fa-linkedin-in"></i></a>
-                                    <a href="https://www.instagram.com/"><i className="fab fa-instagram"></i></a>
+                                    <a target="black" href="https://www.facebook.com/"><i className="fab fa-facebook-f"></i></a>
+                                    <a target="black" href="https://www.twitter.com/"><i className="fab fa-twitter"></i></a>
+                                    <a target="black" href="https://www.linkedin.com/"><i className="fab fa-linkedin-in"></i></a>
+                                    <a target="black" href="https://www.instagram.com/"><i className="fab fa-instagram"></i></a>
                                 </div>
                             </div>
                             {/* <!-- Share Links Area end --> */}
